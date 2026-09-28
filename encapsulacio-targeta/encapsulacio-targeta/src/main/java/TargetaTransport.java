@@ -96,4 +96,12 @@ public class TargetaTransport {
             throw new IllegalArgumentException("El text no pot estar buit");
         }
     }
+
+    @Override
+    public String toString() {
+        return "Targeta " + numero +
+                " (" + titular + "): " +
+                getSaldo() + " € i " +
+                viatges.size() + " viatges";
+    }
 }
