@@ -44,4 +44,30 @@ public class TargetaTransport {
     public void setTitular(String titular) {
         this.titular = titular;
     }
+
+    public void recargar(double quantitat) {
+        if (quantitat < 5 || quantitat > 50) {
+            throw new IllegalArgumentException(
+                    "La recarrega ha de ser entre 5 i 50 euros"
+            );
+        }
+
+        if (saldo + quantitat > 100) {
+            throw new IllegalArgumentException(
+                    "El saldo no pot superar els 100 euros"
+            );
+        }
+
+        saldo += quantitat;
+    }
+
+    public boolean validarViatge(String linia) {
+        if (saldo >= tarifa) {
+            saldo -= tarifa;
+            viatges.add(linia);
+            return true;
+        }
+
+        return false;
+    }
 }
