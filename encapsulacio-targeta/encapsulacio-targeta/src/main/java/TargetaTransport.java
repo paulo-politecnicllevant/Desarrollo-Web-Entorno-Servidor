@@ -12,8 +12,18 @@ public class TargetaTransport {
     private ArrayList<String> viatges = new ArrayList<>();
 
     public TargetaTransport(String numero, String titular) {
-        this.numero = numero;
-        this.titular = titular;
+        if(numero == null){
+            throw new IllegalArgumentException("El número no pot estar buit");
+        }else{
+            this.numero = numero;
+        }
+
+        if(titular == null){
+            throw new IllegalArgumentException("El titular no pot estar buit");
+        }else{
+            this.titular = titular;
+        }
+
         this.tarifa = 1.15;
     }
 
@@ -38,11 +48,19 @@ public class TargetaTransport {
     }
 
     public void setTarifa(double tarifa) {
-        this.tarifa = tarifa;
+        if (tarifa <= 0){
+            throw new IllegalArgumentException("La tarifa no pot ser menor o igual que 0");
+        }else{
+            this.tarifa = tarifa;
+        }
     }
 
     public void setTitular(String titular) {
-        this.titular = titular;
+        if (titular == null) {
+            throw new IllegalArgumentException("El titular no pot estar buit");
+        }else{
+            this.titular = titular;
+        }
     }
 
     public void recargar(double quantitat) {
