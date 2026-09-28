@@ -7,7 +7,7 @@ import java.util.List;
  * ATENCIÓ: aquesta versió està MAL encapsulada. És el punt de partida de l'activitat 3.
  */
 public class TargetaTransport {
-    private String numero;
+    private final String numero;
     private String titular;
     private long saldoCentimos;
     private long tarifaCentimos;
