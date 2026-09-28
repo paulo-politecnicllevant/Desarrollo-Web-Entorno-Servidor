@@ -88,4 +88,10 @@ public class TargetaTransport {
 
         return false;
     }
+
+    public void validarText(String text){
+        if(text == null || text.isEmpty()){
+            throw new IllegalArgumentException("El text no pot estar buit");
+        }
+    }
 }
