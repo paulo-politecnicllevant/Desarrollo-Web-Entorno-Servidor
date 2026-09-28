@@ -1,4 +1,6 @@
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 
 /**
  * Targeta de transport públic.
@@ -43,8 +45,8 @@ public class TargetaTransport {
         return tarifa;
     }
 
-    public ArrayList<String> getViatges() {
-        return viatges;
+    public List<String> getViatges() {
+        return Collections.unmodifiableList(viatges);
     }
 
     public void setTarifa(double tarifa) {
