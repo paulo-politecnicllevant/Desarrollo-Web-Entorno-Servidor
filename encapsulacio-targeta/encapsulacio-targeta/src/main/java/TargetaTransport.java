@@ -9,8 +9,8 @@ import java.util.List;
 public class TargetaTransport {
     private String numero;
     private String titular;
-    private double saldo;
-    private double tarifa;
+    private long saldoCentimos;
+    private long tarifaCentimos;
     private ArrayList<String> viatges = new ArrayList<>();
 
     public TargetaTransport(String numero, String titular) {
@@ -26,7 +26,7 @@ public class TargetaTransport {
             this.titular = titular;
         }
 
-        this.tarifa = 1.15;
+        this.tarifaCentimos = 115;
     }
 
     public String getNumero() {
@@ -38,11 +38,11 @@ public class TargetaTransport {
     }
 
     public double getSaldo() {
-        return saldo;
+        return saldoCentimos / 100.0;
     }
 
     public double getTarifa() {
-        return tarifa;
+        return tarifaCentimos / 100.0;
     }
 
     public List<String> getViatges() {
@@ -53,7 +53,7 @@ public class TargetaTransport {
         if (tarifa <= 0){
             throw new IllegalArgumentException("La tarifa no pot ser menor o igual que 0");
         }else{
-            this.tarifa = tarifa;
+            tarifaCentimos = Math.round(tarifa * 100);
         }
     }
 
@@ -72,18 +72,18 @@ public class TargetaTransport {
             );
         }
 
-        if (saldo + quantitat > 100) {
+        if (saldoCentimos + quantitat > 100) {
             throw new IllegalArgumentException(
                     "El saldo no pot superar els 100 euros"
             );
         }
 
-        saldo += quantitat;
+        saldoCentimos += quantitat;
     }
 
     public boolean validarViatge(String linia) {
-        if (saldo >= tarifa) {
-            saldo -= tarifa;
+        if (saldoCentimos >= tarifaCentimos) {
+            saldoCentimos -= tarifaCentimos;
             viatges.add(linia);
             return true;
         }
