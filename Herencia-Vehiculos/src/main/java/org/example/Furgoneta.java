@@ -17,7 +17,7 @@ public class Furgoneta extends Vehicle{
     }
 
     @Override
-    public double preuLloguer(int dies){
-        return 0;
+    public double preuLloguer(int dies) {
+        return super.preuLloguer(dies) + 15;
     }
 }

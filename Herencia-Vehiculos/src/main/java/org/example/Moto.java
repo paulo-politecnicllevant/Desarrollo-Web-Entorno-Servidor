@@ -15,6 +15,10 @@ public class Moto extends Vehicle{
     }
 
     public boolean potConduirAmbCarnet(){
+        if (cilindrada <= 125){
+            return true;
+        }
+
         return false;
     }
 }

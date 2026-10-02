@@ -20,7 +20,12 @@ public class Vehicle {
     }
 
     public double preuLloguer(int dies){
-        return 0;
+
+        if (dies >= 7){
+            return (preuDia * dies) * 0.9;
+        }
+
+        return preuDia * dies;
     }
 
     @Override

@@ -21,7 +21,13 @@ public class Cotxe extends Vehicle{
 
     @Override
     public double preuLloguer(int dies) {
-        return 0;
+        double preu = super.preuLloguer(dies);
+
+        if(automatic){
+            preu += 5 * dies;
+        }
+
+        return preu;
     }
 
     @Override
