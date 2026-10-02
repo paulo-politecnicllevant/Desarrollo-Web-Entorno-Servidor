@@ -1,6 +1,23 @@
 package org.example;
 
-public class Furgoneta {
+public class Furgoneta extends Vehicle{
     public double SUPLEMENT_NETEJA;
     private int capacitatKg;
+
+    public Furgoneta(
+            String matricula,
+            String marca,
+            String model,
+            double preuDia,
+            int capacitatKg
+    )
+    {
+        super(matricula, marca, model, preuDia);
+        this.capacitatKg = capacitatKg;
+    }
+
+    @Override
+    public double preuLloguer(int dies){
+        return 0;
+    }
 }
