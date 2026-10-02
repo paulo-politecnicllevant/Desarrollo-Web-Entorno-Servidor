@@ -30,10 +30,9 @@ public class Vehicle {
 
     @Override
     public String toString() {
-        return "Vehicle" +
-                marca  +
-                model +
-                matricula +
-                preuDia + "€/dia, ";
+        return  " " + marca  +
+                " " + model +
+                " " + matricula +
+                " " + preuDia + "€/dia, ";
     }
 }
