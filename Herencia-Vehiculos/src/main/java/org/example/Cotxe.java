@@ -32,10 +32,8 @@ public class Cotxe extends Vehicle{
 
     @Override
     public String toString() {
-        return "Cotxe{" +
-                "SUMPLEMENT_AUTOMATIC_DIA=" + SUMPLEMENT_AUTOMATIC_DIA +
-                ", places=" + places +
-                ", automatic=" + automatic +
-                '}';
+        return super.toString() +
+                places +
+                automatic;
     }
 }

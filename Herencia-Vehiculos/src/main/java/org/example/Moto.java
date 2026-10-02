@@ -21,4 +21,10 @@ public class Moto extends Vehicle{
 
         return false;
     }
+
+    @Override
+    public String toString(){
+        return super.toString() +
+                cilindrada;
+    }
 }

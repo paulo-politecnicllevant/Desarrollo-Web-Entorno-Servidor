@@ -20,4 +20,10 @@ public class Furgoneta extends Vehicle{
     public double preuLloguer(int dies) {
         return super.preuLloguer(dies) + 15;
     }
+
+    @Override
+    public String toString(){
+        return super.toString() +
+                capacitatKg;
+    }
 }
