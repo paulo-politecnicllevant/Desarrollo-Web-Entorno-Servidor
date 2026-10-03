@@ -25,6 +25,6 @@ public class Furgoneta extends Vehicle{
     public String toString(){
         return  "Furgoneta" +
                 super.toString() +
-                " " + capacitatKg;
+                 capacitatKg;
     }
 }

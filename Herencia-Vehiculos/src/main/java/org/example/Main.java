@@ -21,20 +21,20 @@ public class Main {
         }
 
         vehicles.add(new Cotxe("1234 XXX", "Seat", "Ibiza", 10, 4, false));
-        vehicles.add(new Cotxe("s", "d", "d", 1, 1, false));
+        vehicles.add(new Cotxe("5678 XXX", "Tesla", "Model 3", 80, 5, true));
 
-        vehicles.add(new Moto("s", "d", "d", 1, 1 ));
-        vehicles.add(new Moto("s", "d", "d", 1, 1 ));
+        vehicles.add(new Moto("1111 XXX", "Honda", "CB125", 20, 2));
+        vehicles.add(new Moto("2222 XXX", "Yamaha", "MT125", 25, 2));
 
-        vehicles.add(new Furgoneta("s", "d", "d", 1, 1 ));
-        vehicles.add(new Furgoneta("s", "d", "d", 1, 1));
+        vehicles.add(new Furgoneta("3333 XXX", "Ford", "Transit", 40, 1000));
+        vehicles.add(new Furgoneta("4444 XXX", "Mercedes", "Sprinter", 50, 1500));
 
         for(Vehicle vehicle : vehicles){
-            System.out.println(vehicle.preuLloguer(3));
-            System.out.println(vehicles);
+            System.out.println("------------------------------");
+            System.out.println(vehicle);
 
-            System.out.println(vehicle.preuLloguer(7));
-            System.out.println(vehicles);
+            System.out.println("Preu 3 dies: " + vehicle.preuLloguer(3) + " €");
+            System.out.println("Preu 7 dies: " + vehicle.preuLloguer(7) + " €");
         }
     }
 }

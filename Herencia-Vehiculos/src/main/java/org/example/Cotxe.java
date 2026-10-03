@@ -34,7 +34,7 @@ public class Cotxe extends Vehicle{
     public String toString() {
         return "Cotxe" +
                 super.toString() +
-                " " + places +
-                " " + automatic;
+                places +
+                " " + (automatic ? "automàtic" : "manual");
     }
 }

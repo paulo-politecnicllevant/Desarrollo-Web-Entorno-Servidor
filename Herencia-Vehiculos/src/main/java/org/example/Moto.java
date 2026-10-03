@@ -26,6 +26,6 @@ public class Moto extends Vehicle{
     public String toString(){
         return  "Moto" +
                 super.toString() +
-                " " + cilindrada;
+                cilindrada;
     }
 }

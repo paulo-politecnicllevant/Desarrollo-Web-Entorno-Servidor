@@ -1,2 +1,5 @@
 Videos-PHP/
-encapsulacio-targeta/
+encapsulacio-targeta
+out/
+.idea/
+target/
