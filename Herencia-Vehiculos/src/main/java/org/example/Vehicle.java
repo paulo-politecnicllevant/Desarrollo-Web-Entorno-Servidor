@@ -28,6 +28,16 @@ public class Vehicle {
         return preuDia * dies;
     }
 
+    public double preuLloguer(int dies, boolean assegurancaTotal) {
+        double preu = preuLloguer(dies);
+
+        if (assegurancaTotal) {
+            preu += 12 * dies;
+        }
+
+        return preu;
+    }
+
     @Override
     public String toString() {
         return  " " + marca  +

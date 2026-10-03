@@ -49,4 +49,11 @@ public class Main {
 
     System.out.println(flota.totalLloguer(7));
      */
+
+    /*
+    Ejercicio 6b
+
+    Vehicle tesla = new Cotxe("5678 XXX", "Tesla", "Model 3", 80, 5, true));
+    System.out.println(tesla.preuLloguer(3, true));
+     */
 }
