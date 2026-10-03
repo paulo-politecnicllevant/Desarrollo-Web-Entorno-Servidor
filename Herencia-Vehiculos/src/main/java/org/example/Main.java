@@ -37,4 +37,16 @@ public class Main {
             System.out.println("Preu 7 dies: " + vehicle.preuLloguer(7) + " €");
         }
     }
+
+    /*
+    Ejercicio 5e
+
+    Flota flota = new Flota();
+    flota.afegir(new Cotxe("1234 KLM", "Seat", "Ibiza", 35, 5, false));
+
+    flota.afegir(null);
+    flota.clear();
+
+    System.out.println(flota.totalLloguer(7));
+     */
 }
