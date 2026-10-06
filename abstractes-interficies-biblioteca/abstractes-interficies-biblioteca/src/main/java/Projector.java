@@ -14,6 +14,11 @@ public class Projector implements Inventariable {
     }
 
     @Override
+    public boolean esDeValor() {
+        return valor >= 1000;
+    }
+
+    @Override
     public String toString() {
         return "Projector de l'aula " + aula;
     }

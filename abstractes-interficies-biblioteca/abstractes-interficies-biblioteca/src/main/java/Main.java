@@ -25,6 +25,8 @@ public class Main {
         inventari.afegir(portatil);
         inventari.afegir(new Projector("A12", 450));
         inventari.afegir(new Projector("B04", 1200));
+        //Actividad 6
+        inventari.afegir(new Projector("C08", 800));
 
         System.out.println();
         System.out.println("── Inventari d'equips ──");
