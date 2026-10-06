@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1e8188f-9759-4b30-bdf2-3aab70823539" name="Changes" comment="Estructura base de la actividad">
-      <change afterPath="$PROJECT_DIR$/abstractes-interficies-biblioteca/abstractes-interficies-biblioteca/src/main/java/Exemplar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/abstractes-interficies-biblioteca/abstractes-interficies-biblioteca/src/main/java/Inventari.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/abstractes-interficies-biblioteca/abstractes-interficies-biblioteca/src/main/java/Inventariable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/abstractes-interficies-biblioteca/abstractes-interficies-biblioteca/src/main/java/Llibre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/abstractes-interficies-biblioteca/abstractes-interficies-biblioteca/src/main/java/Portatil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/abstractes-interficies-biblioteca/abstractes-interficies-biblioteca/src/main/java/Projector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/abstractes-interficies-biblioteca/abstractes-interficies-biblioteca/src/main/java/Revista.java" afterDir="false" />
+    <list default="true" id="a1e8188f-9759-4b30-bdf2-3aab70823539" name="Changes" comment="Creo las clases y les añado el código necesario para mostrar por pantalla la salida indicada">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abstractes-interficies-biblioteca/abstractes-interficies-biblioteca/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/abstractes-interficies-biblioteca/abstractes-interficies-biblioteca/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/abstractes-interficies-biblioteca/abstractes-interficies-biblioteca/src/main/java/Inventariable.java" beforeDir="false" afterPath="$PROJECT_DIR$/abstractes-interficies-biblioteca/abstractes-interficies-biblioteca/src/main/java/Inventariable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/abstractes-interficies-biblioteca/abstractes-interficies-biblioteca/src/main/java/Projector.java" beforeDir="false" afterPath="$PROJECT_DIR$/abstractes-interficies-biblioteca/abstractes-interficies-biblioteca/src/main/java/Projector.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +63,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="innecesario" />
     <MESSAGE value="Estructura base de la actividad" />
-    <option name="LAST_COMMIT_MESSAGE" value="Estructura base de la actividad" />
+    <MESSAGE value="Creo las clases y les añado el código necesario para mostrar por pantalla la salida indicada" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creo las clases y les añado el código necesario para mostrar por pantalla la salida indicada" />
   </component>
 </project>
