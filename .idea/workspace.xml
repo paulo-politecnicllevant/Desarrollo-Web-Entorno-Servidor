@@ -4,22 +4,52 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1e8188f-9759-4b30-bdf2-3aab70823539" name="Changes" comment="innecesario" />
+    <list default="true" id="a1e8188f-9759-4b30-bdf2-3aab70823539" name="Changes" comment="Estructura base de la actividad">
+      <change afterPath="$PROJECT_DIR$/abstractes-interficies-biblioteca/abstractes-interficies-biblioteca/src/main/java/Exemplar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/abstractes-interficies-biblioteca/abstractes-interficies-biblioteca/src/main/java/Inventari.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/abstractes-interficies-biblioteca/abstractes-interficies-biblioteca/src/main/java/Inventariable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/abstractes-interficies-biblioteca/abstractes-interficies-biblioteca/src/main/java/Llibre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/abstractes-interficies-biblioteca/abstractes-interficies-biblioteca/src/main/java/Portatil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/abstractes-interficies-biblioteca/abstractes-interficies-biblioteca/src/main/java/Projector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/abstractes-interficies-biblioteca/abstractes-interficies-biblioteca/src/main/java/Revista.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/abstractes-interficies-biblioteca/abstractes-interficies-biblioteca/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/abstractes-interficies-biblioteca/abstractes-interficies-biblioteca/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
     "git-widget-placeholder": "Ej-Clases-Abstractas-Y-Interfaces",
     "node.js.detected.package.jshint": "true",
-    "node.js.selected.package.jshint": ""
+    "node.js.selected.package.jshint": "",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\paulo\IntellijProyects\Desarrollo-Web-Entorno-Servidor" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="Desarrollo Entorno Servidor" />
@@ -38,6 +68,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="innecesario" />
-    <option name="LAST_COMMIT_MESSAGE" value="innecesario" />
+    <MESSAGE value="Estructura base de la actividad" />
+    <option name="LAST_COMMIT_MESSAGE" value="Estructura base de la actividad" />
   </component>
 </project>
