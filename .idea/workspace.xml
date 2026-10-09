@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d12c3e7e-21c8-4620-a53f-e080410d7bf4" name="Changes" comment=".gitignore">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/genericitat-ruta/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/genericitat-ruta/src/main/java/Etapa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/genericitat-ruta/src/main/java/Identificable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/genericitat-ruta/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/genericitat-ruta/src/main/java/Refugi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/genericitat-ruta/src/main/java/RepositoriEtapes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/genericitat-ruta/src/main/java/RepositoriRefugis.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,11 +20,12 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4,
-  "fromUser": false
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4,
+  &quot;fromUser&quot;: false
+}</component>
   <component name="ProjectId" id="3KMeUBd2RqG6DjjqpODMG8gQ6hU" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -32,8 +39,9 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "Ej-Generalidad-Ruta",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/alumati/Escriptori/2o DAW/Desarrollo-Web-Entorno-Servidor",
     "nodejs_package_manager_path": "npm"
   }
 }]]></component>
