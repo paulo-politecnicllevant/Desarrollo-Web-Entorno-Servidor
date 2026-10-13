@@ -1,5 +1,5 @@
 /** Una etapa de la Ruta de Pedra en Sec. L'identificador és un text: «E1», «E2»... */
-public class Etapa implements Identificable<String> {
+public class Etapa implements Identificable<String>, Comparable<Etapa> {
     private final String id;
     private final String nom;
     private final double km;
@@ -32,5 +32,10 @@ public class Etapa implements Identificable<String> {
     @Override
     public String toString() {
         return id + " " + nom + " (" + km + " km, +" + desnivell + " m)";
+    }
+
+    @Override
+    public int compareTo(Etapa altra) {
+        return Double.compare(this.km, altra.km);
     }
 }

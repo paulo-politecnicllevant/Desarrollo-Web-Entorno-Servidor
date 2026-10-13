@@ -1,3 +1,5 @@
+import java.util.List;
+
 /**
  * NO l'heu de modificar.
  * No compilarà fins que no hàgiu creat la classe genèrica Repositori.
@@ -54,5 +56,11 @@ public class Main {
             System.out.println("Error: " + ex.getMessage());
         }
         System.out.println(etapes.quants() + " etapes i " + refugis.quants() + " refugis");
+
+        System.out.println();
+        System.out.println("── Ejercicio 7 ──");
+        System.out.println(Util.maxim(etapes.tots()));
+        System.out.println(Util.maxim(refugis.ids()));
+        System.out.println(Util.maxim(List.of("Deià", "Lluc", "Sóller")));
     }
 }
