@@ -6,16 +6,16 @@ import java.util.ArrayList;
  * Primera versió, feta pel becari.
  */
 public class Reserva {
-    public static int comptador = 0;
+    private static int comptador = 0;
 
-    public String codi;
-    public Client client;
-    public Habitacio habitacio;
-    public LocalDate entrada;
-    public LocalDate sortida;
-    public int persones;
-    public boolean cancelada;
-    public ArrayList<String> observacions = new ArrayList<>();
+    private String codi;
+    private Client client;
+    private Habitacio habitacio;
+    private LocalDate entrada;
+    private LocalDate sortida;
+    private int persones;
+    private boolean cancelada;
+    private ArrayList<String> observacions = new ArrayList<>();
 
     public Reserva(Client client, Habitacio habitacio, LocalDate entrada, LocalDate sortida, int persones) {
         comptador++;

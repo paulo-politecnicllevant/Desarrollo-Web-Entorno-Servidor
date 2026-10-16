@@ -9,8 +9,8 @@ public class Habitacio {
     private String codi;
     private String nom;
     public int places;
-    public double preuBase;
-    public boolean vistes;
+    private double preuBase;
+    private boolean vistes;
 
     public Habitacio(String codi, String nom, int places, double preuBase, boolean vistes) {
         this.codi = codi;

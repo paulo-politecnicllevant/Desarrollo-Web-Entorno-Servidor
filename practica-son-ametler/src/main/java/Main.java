@@ -8,8 +8,8 @@ public class Main {
         Client aina = new Client("43123456A", "Aina Riera", "aina@exemple.cat");
         Habitacio garrover = new Habitacio("H2", "Garrover", 2, 90, true);
         Reserva r = new Reserva(aina, garrover, LocalDate.of(2026, 7, 10), LocalDate.of(2026, 7, 13), 2);
-        r.observacions.add("Arribarem després de les 22 h");
-        System.out.println(r.codi + ": " + r.client.getNom() + ", " + r.nits + " nits, " + r.preu + " €");
+        r.afegirObservacio("Arribarem després de les 22 h");
+        System.out.println(r.getCodi() + ": " + r.getClient().getNom() + ", " + r.nits() + " nits, " + r.preu() + " €");
 
         // Coses que NO haurien de ser possibles:
         r.sortida = LocalDate.of(2026, 7, 20);   // 1. allargam l'estada... però les nits i el preu no canvien
