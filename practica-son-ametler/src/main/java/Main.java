@@ -16,7 +16,7 @@ public class Main {
         r.persones = 5;                          // 2. cinc persones en una habitació de dues places
         r.codi = "R999";                         // 3. la reserva canvia de codi
         Reserva.comptador = 0;                   // 4. la reserva següent tornarà a ser la R1
-        garrover.preuNit = -90;                  // 5. un preu negatiu
+        garrover.preuBase = -90;                  // 5. un preu negatiu
         r.cancelada = true;                      // 6. cancel·lam la reserva...
         r.cancelada = false;                     //    ...i la «descancel·lam»
         r.observacions.clear();                  // 7. esborram les observacions des de fora

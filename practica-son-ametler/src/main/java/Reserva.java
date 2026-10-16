@@ -29,7 +29,7 @@ public class Reserva {
         this.persones = persones;
         // ChronoUnit.DAYS.between compta els dies que hi ha entre dues dates
         this.nits = (int) ChronoUnit.DAYS.between(entrada, sortida);
-        this.preu = nits * habitacio.preuNit;
+        this.preu = nits * habitacio.preuBase;
         if (habitacio.vistes) {
             this.preu = this.preu + nits * 15;
         }
