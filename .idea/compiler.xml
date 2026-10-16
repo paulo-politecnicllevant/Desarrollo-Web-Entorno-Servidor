@@ -6,10 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="practica-son-ametler" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Herencia-Vehiculos" target="25" />
+      <module name="inicial-genericitat-ruta" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>
