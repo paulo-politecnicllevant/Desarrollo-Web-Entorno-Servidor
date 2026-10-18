@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d12c3e7e-21c8-4620-a53f-e080410d7bf4" name="Changes" comment="2. Borrar carpeta">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practica-son-ametler/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/practica-son-ametler/src/main/java/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="d12c3e7e-21c8-4620-a53f-e080410d7bf4" name="Changes" comment="2.2 Comento pisibilidades" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -101,6 +98,7 @@
     <MESSAGE value="Código inicial" />
     <MESSAGE value="2. Código de la clase Habitacio" />
     <MESSAGE value="2. Borrar carpeta" />
-    <option name="LAST_COMMIT_MESSAGE" value="2. Borrar carpeta" />
+    <MESSAGE value="2.2 Comento pisibilidades" />
+    <option name="LAST_COMMIT_MESSAGE" value="2.2 Comento pisibilidades" />
   </component>
 </project>

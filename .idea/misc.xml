@@ -6,6 +6,11 @@
       <list>
         <option value="$PROJECT_DIR$/Herencia-Vehiculos/pom.xml" />
         <option value="$PROJECT_DIR$/practica-son-ametler/pom.xml" />
+        <option value="$PROJECT_DIR$/practica-son-ametler/parte3-herencia/pom.xml" />
+        <option value="$PROJECT_DIR$/practica-son-ametler/parte2-encapsulacion/pom.xml" />
+        <option value="$PROJECT_DIR$/practica-son-ametler/parte4-abstractos/pom.xml" />
+        <option value="$PROJECT_DIR$/practica-son-ametler/parte5-interficies/pom.xml" />
+        <option value="$PROJECT_DIR$/practica-son-ametler/parte6-genericidad/pom.xml" />
       </list>
     </option>
   </component>

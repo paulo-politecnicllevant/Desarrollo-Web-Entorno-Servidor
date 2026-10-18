@@ -6,6 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="practica-son-ametler (3)" />
+        <module name="practica-son-ametler (4)" />
+        <module name="practica-son-ametler (1)" />
+        <module name="practica-son-ametler (2)" />
         <module name="practica-son-ametler" />
       </profile>
     </annotationProcessing>
