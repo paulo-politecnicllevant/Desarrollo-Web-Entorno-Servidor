@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d12c3e7e-21c8-4620-a53f-e080410d7bf4" name="Changes" comment="2.2 Comento pisibilidades" />
+    <list default="true" id="d12c3e7e-21c8-4620-a53f-e080410d7bf4" name="Changes" comment="Nueva organización de las carpetas siguiendo la estructura del profesor">
+      <change afterPath="$PROJECT_DIR$/practica-son-ametler/parte2-encapsulacion/src/main/java/ProvaPart2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,21 +40,52 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Práctica-Consolidación-POO&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main (1).executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.ProvaPart2.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "Práctica-Consolidación-POO",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/paulo/IntellijProyects/Desarrollo-Web-Entorno-Servidor/practica-son-ametler/parte2-encapsulacion/src/main/java",
+    "node.js.detected.package.jshint": "true",
+    "node.js.selected.package.jshint": "",
+    "nodejs_package_manager_path": "npm"
   }
-}</component>
-  <component name="RunManager">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\paulo\IntellijProyects\Desarrollo-Web-Entorno-Servidor\practica-son-ametler\parte2-encapsulacion\src\main\java" />
+      <recent name="C:\Users\paulo\IntellijProyects\Desarrollo-Web-Entorno-Servidor\practica-son-ametler\parte6-genericidad" />
+      <recent name="C:\Users\paulo\IntellijProyects\Desarrollo-Web-Entorno-Servidor\practica-son-ametler\parte5-interficies" />
+      <recent name="C:\Users\paulo\IntellijProyects\Desarrollo-Web-Entorno-Servidor\practica-son-ametler\parte4-abstractos" />
+      <recent name="C:\Users\paulo\IntellijProyects\Desarrollo-Web-Entorno-Servidor\practica-son-ametler\parte3-herencia" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\paulo\IntellijProyects\Desarrollo-Web-Entorno-Servidor\practica-son-ametler\parte2-encapsulacion" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ProvaPart2">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="practica-son-ametler (1)" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="practica-son-ametler" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProvaPart2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ProvaPart2" />
+      <module name="practica-son-ametler (1)" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -69,6 +103,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ProvaPart2" />
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -99,6 +135,7 @@
     <MESSAGE value="2. Código de la clase Habitacio" />
     <MESSAGE value="2. Borrar carpeta" />
     <MESSAGE value="2.2 Comento pisibilidades" />
-    <option name="LAST_COMMIT_MESSAGE" value="2.2 Comento pisibilidades" />
+    <MESSAGE value="Nueva organización de las carpetas siguiendo la estructura del profesor" />
+    <option name="LAST_COMMIT_MESSAGE" value="Nueva organización de las carpetas siguiendo la estructura del profesor" />
   </component>
 </project>
