@@ -4,14 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d12c3e7e-21c8-4620-a53f-e080410d7bf4" name="Changes" comment="Nueva organización de las carpetas siguiendo la estructura del profesor">
-      <change afterPath="$PROJECT_DIR$/practica-son-ametler/parte2-encapsulacion/src/main/java/ProvaPart2.java" afterDir="false" />
+    <list default="true" id="d12c3e7e-21c8-4620-a53f-e080410d7bf4" name="Changes" comment="2.3. Copiamos la clase Prova2">
+      <change afterPath="$PROJECT_DIR$/practica-son-ametler/parte3-herencia/src/main/java/Suite.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practica-son-ametler/parte3-herencia/src/main/java/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/practica-son-ametler/parte3-herencia/src/main/java/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practica-son-ametler/parte3-herencia/src/main/java/Habitacio.java" beforeDir="false" afterPath="$PROJECT_DIR$/practica-son-ametler/parte3-herencia/src/main/java/Habitacio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practica-son-ametler/parte3-herencia/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/practica-son-ametler/parte3-herencia/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practica-son-ametler/parte3-herencia/src/main/java/Reserva.java" beforeDir="false" afterPath="$PROJECT_DIR$/practica-son-ametler/parte3-herencia/src/main/java/Reserva.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -50,7 +61,7 @@
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "Práctica-Consolidación-POO",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/paulo/IntellijProyects/Desarrollo-Web-Entorno-Servidor/practica-son-ametler/parte2-encapsulacion/src/main/java",
+    "last_opened_file_path": "C:/Users/paulo/IntellijProyects/Desarrollo-Web-Entorno-Servidor/practica-son-ametler/parte5-interficies/src/main/java",
     "node.js.detected.package.jshint": "true",
     "node.js.selected.package.jshint": "",
     "nodejs_package_manager_path": "npm"
@@ -58,11 +69,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\paulo\IntellijProyects\Desarrollo-Web-Entorno-Servidor\practica-son-ametler\parte5-interficies\src\main\java" />
+      <recent name="C:\Users\paulo\IntellijProyects\Desarrollo-Web-Entorno-Servidor\practica-son-ametler\parte4-abstractos\src\main\java" />
+      <recent name="C:\Users\paulo\IntellijProyects\Desarrollo-Web-Entorno-Servidor\practica-son-ametler\parte4-abstractos\src" />
+      <recent name="C:\Users\paulo\IntellijProyects\Desarrollo-Web-Entorno-Servidor\practica-son-ametler\parte3-herencia\src\main\java" />
       <recent name="C:\Users\paulo\IntellijProyects\Desarrollo-Web-Entorno-Servidor\practica-son-ametler\parte2-encapsulacion\src\main\java" />
-      <recent name="C:\Users\paulo\IntellijProyects\Desarrollo-Web-Entorno-Servidor\practica-son-ametler\parte6-genericidad" />
-      <recent name="C:\Users\paulo\IntellijProyects\Desarrollo-Web-Entorno-Servidor\practica-son-ametler\parte5-interficies" />
-      <recent name="C:\Users\paulo\IntellijProyects\Desarrollo-Web-Entorno-Servidor\practica-son-ametler\parte4-abstractos" />
-      <recent name="C:\Users\paulo\IntellijProyects\Desarrollo-Web-Entorno-Servidor\practica-son-ametler\parte3-herencia" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\paulo\IntellijProyects\Desarrollo-Web-Entorno-Servidor\practica-son-ametler\parte2-encapsulacion" />
@@ -136,6 +147,7 @@
     <MESSAGE value="2. Borrar carpeta" />
     <MESSAGE value="2.2 Comento pisibilidades" />
     <MESSAGE value="Nueva organización de las carpetas siguiendo la estructura del profesor" />
-    <option name="LAST_COMMIT_MESSAGE" value="Nueva organización de las carpetas siguiendo la estructura del profesor" />
+    <MESSAGE value="2.3. Copiamos la clase Prova2" />
+    <option name="LAST_COMMIT_MESSAGE" value="2.3. Copiamos la clase Prova2" />
   </component>
 </project>
