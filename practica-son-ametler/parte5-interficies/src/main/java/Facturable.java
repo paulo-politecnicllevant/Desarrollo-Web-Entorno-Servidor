@@ -6,10 +6,10 @@ public interface Facturable {
 
     double baseImposable();
 
-    int percentatgeIVA();
+    int percentatgeIva();
 
     default double iva() {
-        return baseImposable() * percentatgeIVA() / 100.0;
+        return baseImposable() * percentatgeIva() / 100.0;
     }
 
     default double total() {

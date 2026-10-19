@@ -106,7 +106,7 @@ public class Reserva implements Facturable{
     }
 
     @Override
-    public int percentatgeIVA() {
+    public int percentatgeIva() {
         return IVA_REDUIT;
     }
 }

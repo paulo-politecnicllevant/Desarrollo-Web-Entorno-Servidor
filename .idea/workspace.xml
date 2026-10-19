@@ -90,17 +90,10 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ProvaPart4">
+  <component name="RunManager" selected="Application.ProvaPart5">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="practica-son-ametler (1)" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="practica-son-ametler" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -126,6 +119,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ProvaPart5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ProvaPart5" />
+      <module name="practica-son-ametler (3)" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="Desarrollo Entorno Servidor" />
       <method v="2">
@@ -139,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ProvaPart5" />
         <item itemvalue="Application.ProvaPart4" />
         <item itemvalue="Application.ProvaPart3" />
         <item itemvalue="Application.ProvaPart2" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>

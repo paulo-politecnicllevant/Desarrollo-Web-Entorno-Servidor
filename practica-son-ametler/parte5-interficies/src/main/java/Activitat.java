@@ -33,7 +33,7 @@ public class Activitat implements Facturable {
     }
 
     @Override
-    public int percentatgeIVA() {
+    public int percentatgeIva() {
         return IVA_GENERAL;
     }
 }
