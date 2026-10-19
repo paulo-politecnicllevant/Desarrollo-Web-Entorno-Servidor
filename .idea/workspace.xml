@@ -4,10 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d12c3e7e-21c8-4620-a53f-e080410d7bf4" name="Changes" comment="4.2. Corrección clase Habitacio">
-      <change afterPath="$PROJECT_DIR$/practica-son-ametler/parte4-abstractos/src/main/java/ProvaPart4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practica-son-ametler/parte4-abstractos/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/practica-son-ametler/parte4-abstractos/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practica-son-ametler/parte4-abstractos/src/main/java/Reserva.java" beforeDir="false" afterPath="$PROJECT_DIR$/practica-son-ametler/parte4-abstractos/src/main/java/Reserva.java" afterDir="false" />
+    <list default="true" id="d12c3e7e-21c8-4620-a53f-e080410d7bf4" name="Changes" comment="4.3. Prueba 4">
+      <change afterPath="$PROJECT_DIR$/practica-son-ametler/parte5-interficies/src/main/java/Activitat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practica-son-ametler/parte5-interficies/src/main/java/Allotjament.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practica-son-ametler/parte5-interficies/src/main/java/Casa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practica-son-ametler/parte5-interficies/src/main/java/Factura.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practica-son-ametler/parte5-interficies/src/main/java/Facturable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practica-son-ametler/parte5-interficies/src/main/java/Suite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practica-son-ametler/parte5-interficies/src/main/java/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/practica-son-ametler/parte5-interficies/src/main/java/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practica-son-ametler/parte5-interficies/src/main/java/Habitacio.java" beforeDir="false" afterPath="$PROJECT_DIR$/practica-son-ametler/parte5-interficies/src/main/java/Habitacio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practica-son-ametler/parte5-interficies/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/practica-son-ametler/parte5-interficies/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practica-son-ametler/parte5-interficies/src/main/java/Reserva.java" beforeDir="false" afterPath="$PROJECT_DIR$/practica-son-ametler/parte5-interficies/src/main/java/Reserva.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +24,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -61,7 +69,7 @@
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "Práctica-Consolidación-POO",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/paulo/IntellijProyects/Desarrollo-Web-Entorno-Servidor/practica-son-ametler/parte4-abstractos/src/main/java",
+    "last_opened_file_path": "C:/Users/paulo/IntellijProyects/Desarrollo-Web-Entorno-Servidor/practica-son-ametler/parte5-interficies/src/main/java",
     "node.js.detected.package.jshint": "true",
     "node.js.selected.package.jshint": "",
     "nodejs_package_manager_path": "npm"
@@ -69,9 +77,9 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\paulo\IntellijProyects\Desarrollo-Web-Entorno-Servidor\practica-son-ametler\parte5-interficies\src\main\java" />
       <recent name="C:\Users\paulo\IntellijProyects\Desarrollo-Web-Entorno-Servidor\practica-son-ametler\parte4-abstractos\src\main\java" />
       <recent name="C:\Users\paulo\IntellijProyects\Desarrollo-Web-Entorno-Servidor\practica-son-ametler\parte3-herencia\src\main\java" />
-      <recent name="C:\Users\paulo\IntellijProyects\Desarrollo-Web-Entorno-Servidor\practica-son-ametler\parte5-interficies\src\main\java" />
       <recent name="C:\Users\paulo\IntellijProyects\Desarrollo-Web-Entorno-Servidor\practica-son-ametler\parte4-abstractos\src" />
       <recent name="C:\Users\paulo\IntellijProyects\Desarrollo-Web-Entorno-Servidor\practica-son-ametler\parte2-encapsulacion\src\main\java" />
     </key>
@@ -171,6 +179,7 @@
     <MESSAGE value="3.2 Copio la clase ProvaPart3" />
     <MESSAGE value="4.2. Código de las clases abstractas" />
     <MESSAGE value="4.2. Corrección clase Habitacio" />
-    <option name="LAST_COMMIT_MESSAGE" value="4.2. Corrección clase Habitacio" />
+    <MESSAGE value="4.3. Prueba 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="4.3. Prueba 4" />
   </component>
 </project>
