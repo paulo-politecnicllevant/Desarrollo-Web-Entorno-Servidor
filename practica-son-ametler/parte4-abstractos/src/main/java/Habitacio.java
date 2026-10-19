@@ -13,12 +13,10 @@ public class Habitacio extends Allotjament{
     private boolean vistes;
 
     public Habitacio(String codi, String nom, int places, double preuBase, boolean vistes) {
-        this.codi = codi;
-        this.nom = nom;
+        super(codi, nom, places);
         if(places < PLACES_MINIMES || places > PLACES_MAXIMES){
             throw new IllegalArgumentException("El nombre de places ha de ser entre 1 i 4");
         }
-        this.places = places;
         if(preuBase <= 0){
             throw new IllegalArgumentException("El preu base ha de ser més gran que 0");
         }
