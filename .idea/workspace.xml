@@ -4,20 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d12c3e7e-21c8-4620-a53f-e080410d7bf4" name="Changes" comment="5.3 Prueba">
-      <change afterPath="$PROJECT_DIR$/practica-son-ametler/parte6-genericidad/src/main/java/Activitat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practica-son-ametler/parte6-genericidad/src/main/java/Allotjament.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practica-son-ametler/parte6-genericidad/src/main/java/Casa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practica-son-ametler/parte6-genericidad/src/main/java/Factura.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practica-son-ametler/parte6-genericidad/src/main/java/Facturable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practica-son-ametler/parte6-genericidad/src/main/java/Identificable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practica-son-ametler/parte6-genericidad/src/main/java/Informes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practica-son-ametler/parte6-genericidad/src/main/java/Registre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practica-son-ametler/parte6-genericidad/src/main/java/Suite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practica-son-ametler/parte6-genericidad/src/main/java/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/practica-son-ametler/parte6-genericidad/src/main/java/Client.java" afterDir="false" />
+    <list default="true" id="d12c3e7e-21c8-4620-a53f-e080410d7bf4" name="Changes" comment="6.2. Código clases genéricas">
+      <change afterPath="$PROJECT_DIR$/practica-son-ametler/parte6-genericidad/src/main/java/ProvaPart6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practica-son-ametler/parte6-genericidad/src/main/java/Activitat.java" beforeDir="false" afterPath="$PROJECT_DIR$/practica-son-ametler/parte6-genericidad/src/main/java/Activitat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/practica-son-ametler/parte6-genericidad/src/main/java/Habitacio.java" beforeDir="false" afterPath="$PROJECT_DIR$/practica-son-ametler/parte6-genericidad/src/main/java/Habitacio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practica-son-ametler/parte6-genericidad/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/practica-son-ametler/parte6-genericidad/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practica-son-ametler/parte6-genericidad/src/main/java/Reserva.java" beforeDir="false" afterPath="$PROJECT_DIR$/practica-son-ametler/parte6-genericidad/src/main/java/Reserva.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practica-son-ametler/parte6-genericidad/src/main/java/Registre.java" beforeDir="false" afterPath="$PROJECT_DIR$/practica-son-ametler/parte6-genericidad/src/main/java/Registre.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +59,7 @@
     "Application.ProvaPart3.executor": "Run",
     "Application.ProvaPart4.executor": "Run",
     "Application.ProvaPart5.executor": "Run",
+    "Application.ProvaPart6.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
@@ -94,14 +87,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ProvaPart5">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="practica-son-ametler (1)" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ProvaPart6">
     <configuration name="ProvaPart2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ProvaPart2" />
       <module name="practica-son-ametler (1)" />
@@ -130,6 +116,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ProvaPart6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ProvaPart6" />
+      <module name="practica-son-ametler (4)" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="Desarrollo Entorno Servidor" />
       <method v="2">
@@ -143,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ProvaPart6" />
         <item itemvalue="Application.ProvaPart5" />
         <item itemvalue="Application.ProvaPart4" />
         <item itemvalue="Application.ProvaPart3" />
         <item itemvalue="Application.ProvaPart2" />
-        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -186,6 +179,7 @@
     <MESSAGE value="4.3. Prueba 4" />
     <MESSAGE value="5.3 Código relacionado a l ainterfaz creada" />
     <MESSAGE value="5.3 Prueba" />
-    <option name="LAST_COMMIT_MESSAGE" value="5.3 Prueba" />
+    <MESSAGE value="6.2. Código clases genéricas" />
+    <option name="LAST_COMMIT_MESSAGE" value="6.2. Código clases genéricas" />
   </component>
 </project>

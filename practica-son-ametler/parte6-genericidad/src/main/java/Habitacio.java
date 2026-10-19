@@ -6,9 +6,6 @@ public class Habitacio extends Allotjament{
     private static final int PLACES_MAXIMES = 4;
     private static final int PREU_VISTES = 15;
 
-    private String codi;
-    private String nom;
-    public int places;
     private double preuBase;
     private boolean vistes;
 
@@ -22,18 +19,6 @@ public class Habitacio extends Allotjament{
         }
         this.preuBase = preuBase;
         this.vistes = vistes;
-    }
-
-    public String getCodi() {
-        return codi;
-    }
-
-    public String getNom() {
-        return nom;
-    }
-
-    public int getPlaces() {
-        return places;
     }
 
     public void setPreuBase(double preuBase) {
@@ -53,7 +38,7 @@ public class Habitacio extends Allotjament{
 
     @Override
     public String toString() {
-        String text = codi + " " + nom + " · " + places + " places";
+        String text = super.toString();
         return vistes ? text + " · amb vistes" : text;
     }
 }

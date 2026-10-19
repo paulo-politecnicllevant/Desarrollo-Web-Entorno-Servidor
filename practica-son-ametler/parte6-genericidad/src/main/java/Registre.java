@@ -14,7 +14,7 @@ public class Registre<T extends Identificable> {
 
     public T cercar(String codi) {
         for (T element : elements) {
-            if (element.getCodi().equals(codi)) {
+            if (element.getCodi() != null && element.getCodi().equals(codi)) {
                 return element;
             }
         }
