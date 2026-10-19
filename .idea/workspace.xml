@@ -4,12 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d12c3e7e-21c8-4620-a53f-e080410d7bf4" name="Changes" comment="3.1 Creo la clase Suite">
-      <change afterPath="$PROJECT_DIR$/practica-son-ametler/parte3-herencia/src/main/java/ProvaPart3.java" afterDir="false" />
+    <list default="true" id="d12c3e7e-21c8-4620-a53f-e080410d7bf4" name="Changes" comment="3.2 Copio la clase ProvaPart3">
+      <change afterPath="$PROJECT_DIR$/practica-son-ametler/parte4-abstractos/src/main/java/Allotjament.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practica-son-ametler/parte4-abstractos/src/main/java/Casa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practica-son-ametler/parte4-abstractos/src/main/java/Suite.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practica-son-ametler/parte3-herencia/target/classes/Habitacio.class" beforeDir="false" afterPath="$PROJECT_DIR$/practica-son-ametler/parte3-herencia/target/classes/Habitacio.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practica-son-ametler/parte3-herencia/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/practica-son-ametler/parte3-herencia/target/classes/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practica-son-ametler/parte3-herencia/target/classes/Reserva.class" beforeDir="false" afterPath="$PROJECT_DIR$/practica-son-ametler/parte3-herencia/target/classes/Reserva.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practica-son-ametler/parte4-abstractos/src/main/java/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/practica-son-ametler/parte4-abstractos/src/main/java/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practica-son-ametler/parte4-abstractos/src/main/java/Habitacio.java" beforeDir="false" afterPath="$PROJECT_DIR$/practica-son-ametler/parte4-abstractos/src/main/java/Habitacio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practica-son-ametler/parte4-abstractos/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/practica-son-ametler/parte4-abstractos/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practica-son-ametler/parte4-abstractos/src/main/java/Reserva.java" beforeDir="false" afterPath="$PROJECT_DIR$/practica-son-ametler/parte4-abstractos/src/main/java/Reserva.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,12 +35,12 @@
     &quot;assignee&quot;: &quot;paulo-politecnicllevant&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/paulo-politecnicllevant/Desarrollo-Web-Wntorno-Servidor.git&quot;,
-    &quot;accountId&quot;: &quot;28c5d1ce-c9b4-4984-9f06-8aaa2a692b02&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/paulo-politecnicllevant/Desarrollo-Web-Entorno-Servidor.git",
+    "accountId": "a03c99c2-c53a-4d89-bf97-a37bf919d33c"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4,
   &quot;fromUser&quot;: false
@@ -57,11 +60,12 @@
     "Application.ProvaPart2.executor": "Run",
     "Application.ProvaPart3.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "Práctica-Consolidación-POO",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/paulo/IntellijProyects/Desarrollo-Web-Entorno-Servidor/practica-son-ametler/parte3-herencia/src/main/java",
+    "last_opened_file_path": "C:/Users/paulo/IntellijProyects/Desarrollo-Web-Entorno-Servidor/practica-son-ametler/parte4-abstractos/src/main/java",
     "node.js.detected.package.jshint": "true",
     "node.js.selected.package.jshint": "",
     "nodejs_package_manager_path": "npm"
@@ -69,9 +73,9 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\paulo\IntellijProyects\Desarrollo-Web-Entorno-Servidor\practica-son-ametler\parte4-abstractos\src\main\java" />
       <recent name="C:\Users\paulo\IntellijProyects\Desarrollo-Web-Entorno-Servidor\practica-son-ametler\parte3-herencia\src\main\java" />
       <recent name="C:\Users\paulo\IntellijProyects\Desarrollo-Web-Entorno-Servidor\practica-son-ametler\parte5-interficies\src\main\java" />
-      <recent name="C:\Users\paulo\IntellijProyects\Desarrollo-Web-Entorno-Servidor\practica-son-ametler\parte4-abstractos\src\main\java" />
       <recent name="C:\Users\paulo\IntellijProyects\Desarrollo-Web-Entorno-Servidor\practica-son-ametler\parte4-abstractos\src" />
       <recent name="C:\Users\paulo\IntellijProyects\Desarrollo-Web-Entorno-Servidor\practica-son-ametler\parte2-encapsulacion\src\main\java" />
     </key>
@@ -157,6 +161,7 @@
     <MESSAGE value="Nueva organización de las carpetas siguiendo la estructura del profesor" />
     <MESSAGE value="2.3. Copiamos la clase Prova2" />
     <MESSAGE value="3.1 Creo la clase Suite" />
-    <option name="LAST_COMMIT_MESSAGE" value="3.1 Creo la clase Suite" />
+    <MESSAGE value="3.2 Copio la clase ProvaPart3" />
+    <option name="LAST_COMMIT_MESSAGE" value="3.2 Copio la clase ProvaPart3" />
   </component>
 </project>
