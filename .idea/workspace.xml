@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d12c3e7e-21c8-4620-a53f-e080410d7bf4" name="Changes" comment="3.2 Copio la clase ProvaPart3">
-      <change afterPath="$PROJECT_DIR$/practica-son-ametler/parte4-abstractos/src/main/java/Allotjament.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practica-son-ametler/parte4-abstractos/src/main/java/Casa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practica-son-ametler/parte4-abstractos/src/main/java/Suite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practica-son-ametler/parte4-abstractos/src/main/java/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/practica-son-ametler/parte4-abstractos/src/main/java/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practica-son-ametler/parte4-abstractos/src/main/java/Habitacio.java" beforeDir="false" afterPath="$PROJECT_DIR$/practica-son-ametler/parte4-abstractos/src/main/java/Habitacio.java" afterDir="false" />
+    <list default="true" id="d12c3e7e-21c8-4620-a53f-e080410d7bf4" name="Changes" comment="4.2. Corrección clase Habitacio">
+      <change afterPath="$PROJECT_DIR$/practica-son-ametler/parte4-abstractos/src/main/java/ProvaPart4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/practica-son-ametler/parte4-abstractos/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/practica-son-ametler/parte4-abstractos/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/practica-son-ametler/parte4-abstractos/src/main/java/Reserva.java" beforeDir="false" afterPath="$PROJECT_DIR$/practica-son-ametler/parte4-abstractos/src/main/java/Reserva.java" afterDir="false" />
     </list>
@@ -59,6 +54,7 @@
     "Application.Main.executor": "Run",
     "Application.ProvaPart2.executor": "Run",
     "Application.ProvaPart3.executor": "Run",
+    "Application.ProvaPart4.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
@@ -82,8 +78,11 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\paulo\IntellijProyects\Desarrollo-Web-Entorno-Servidor\practica-son-ametler\parte2-encapsulacion" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.ProvaPart3">
+  <component name="RunManager" selected="Application.ProvaPart4">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="practica-son-ametler (1)" />
@@ -112,6 +111,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ProvaPart4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ProvaPart4" />
+      <module name="practica-son-ametler (2)" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="Desarrollo Entorno Servidor" />
       <method v="2">
@@ -125,6 +131,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ProvaPart4" />
         <item itemvalue="Application.ProvaPart3" />
         <item itemvalue="Application.ProvaPart2" />
         <item itemvalue="Application.Main (1)" />
@@ -162,6 +169,8 @@
     <MESSAGE value="2.3. Copiamos la clase Prova2" />
     <MESSAGE value="3.1 Creo la clase Suite" />
     <MESSAGE value="3.2 Copio la clase ProvaPart3" />
-    <option name="LAST_COMMIT_MESSAGE" value="3.2 Copio la clase ProvaPart3" />
+    <MESSAGE value="4.2. Código de las clases abstractas" />
+    <MESSAGE value="4.2. Corrección clase Habitacio" />
+    <option name="LAST_COMMIT_MESSAGE" value="4.2. Corrección clase Habitacio" />
   </component>
 </project>

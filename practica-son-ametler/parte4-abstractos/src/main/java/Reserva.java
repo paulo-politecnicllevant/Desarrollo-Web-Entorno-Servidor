@@ -10,24 +10,24 @@ public class Reserva {
 
     private String codi;
     private Client client;
-    private Habitacio habitacio;
+    private Allotjament allotjament;
     private LocalDate entrada;
     private LocalDate sortida;
     private int persones;
     private boolean cancelada;
     private ArrayList<String> observacions = new ArrayList<>();
 
-    public Reserva(Client client, Habitacio habitacio, LocalDate entrada, LocalDate sortida, int persones) {
+    public Reserva(Client client, Allotjament allotjament, LocalDate entrada, LocalDate sortida, int persones) {
         comptador++;
 
-        if (persones < 1 || persones > habitacio.getPlaces()) {
-            throw new IllegalArgumentException("Poden anar entre 1 i " + habitacio.getPlaces() + " persones");
-        }else if(client == null || habitacio == null){
+        if (persones < 1 || persones > allotjament.getPlaces()) {
+            throw new IllegalArgumentException("Hi ha de haber com a minim una persona i un allotjament");
+        }else if(client == null || allotjament == null){
             throw new IllegalArgumentException("El client i l'habitació son obligatoris");
         }
         this.codi = "R" + comptador;
         this.client = client;
-        this.habitacio = habitacio;
+        this.allotjament = allotjament;
         this.entrada = entrada;
         this.sortida = sortida;
         this.persones = persones;
@@ -42,8 +42,8 @@ public class Reserva {
         return client;
     }
 
-    public Habitacio getHabitacio() {
-        return habitacio;
+    public Allotjament getAllotjament() {
+        return allotjament;
     }
 
     public LocalDate getEntrada() {
@@ -86,12 +86,12 @@ public class Reserva {
     }
 
     public double preu() {
-        return habitacio.preuNit() * nits();
+        return allotjament.preuNit() * nits();
     }
 
     @Override
     public String toString() {
-        String text = codi + " " + client + " " + habitacio + " " + entrada + " -> " + sortida;
+        String text = codi + " " + client + " " + allotjament + " " + entrada + " -> " + sortida;
         return cancelada ? text + " · cancel·lada" : text;
     }
 }
