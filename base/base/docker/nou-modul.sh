@@ -7,7 +7,8 @@
 # A Windows, sense sh, es pot executar dins Docker:
 #   docker compose run --rm --entrypoint sh vigilant /apps/docker/nou-modul.sh 2-jsp jsp
 #
-# Crea el pom.xml, web.xml, index.html i un Servlet d'exemple, i afegeix el <module> al pom pare.
+# Crea el pom.xml, web.xml, index.html i un Servlet d'exemple. Cada mòdul és independent:
+# no hi ha pom pare, i no cal tocar res més.
 # Si docker compose up està engegat, el vigilant el desplega tot sol en uns segons.
 
 set -e
@@ -37,25 +38,37 @@ cat > "$ARREL/$MODUL/pom.xml" <<EOF
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <parent>
-        <groupId>dwes.patrons</groupId>
-        <artifactId>codi-explicatiu</artifactId>
-        <version>1.0-SNAPSHOT</version>
-    </parent>
-
+    <groupId>dwes.patrons</groupId>
     <artifactId>$MODUL</artifactId>
+    <version>1.0-SNAPSHOT</version>
     <packaging>war</packaging>
 
+    <properties>
+        <!-- Java 25 (LTS): el mateix JDK a l'ordinador i a la imatge de Tomcat (tomcat:11.0-jdk25-temurin) -->
+        <maven.compiler.release>25</maven.compiler.release>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
     <dependencies>
+        <!-- Servlet 6.1 = Jakarta EE 11 = Tomcat 11 -->
         <dependency>
             <groupId>jakarta.servlet</groupId>
             <artifactId>jakarta.servlet-api</artifactId>
+            <version>6.1.0</version>
+            <scope>provided</scope>
         </dependency>
     </dependencies>
 
     <build>
         <!-- target/$CONTEXT.war → http://localhost:8080/$CONTEXT/ -->
         <finalName>$CONTEXT</finalName>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-war-plugin</artifactId>
+                <version>3.4.0</version>
+            </plugin>
+        </plugins>
     </build>
 </project>
 EOF
@@ -111,10 +124,5 @@ public class HolaServlet extends HttpServlet {
 }
 EOF
 
-# <module> al pom pare, just abans de </modules>
-sed "s|^\([[:space:]]*\)</modules>|\1    <module>$MODUL</module>\\
-\1</modules>|" "$ARREL/pom.xml" > "$ARREL/pom.xml.nou"
-mv "$ARREL/pom.xml.nou" "$ARREL/pom.xml"
-
 echo "Creat $MODUL → http://localhost:8080/$CONTEXT/"
-echo "A IntelliJ: recarregau Maven (la icona de la M que surt al pom) i compilau (Cmd+F9 / Ctrl+F9)."
+echo "A IntelliJ: clic dret damunt $MODUL/pom.xml → Add as Maven Project, i compilau (Cmd+F9 / Ctrl+F9)."
