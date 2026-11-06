@@ -14,18 +14,19 @@ public class InfoServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
-        resp.setContentType("text/html;charset=UTF-8");
-
-        PrintWriter writer = resp.getWriter();
-
-        writer.println("<ul>");
-        writer.println("<li>" + req.getParameter("nom") + "</li>");
-        writer.println("<li>" + req.getMethod() + "</li>");
-        writer.println("<li>" + req.getRequestURI() + "</li>");
-        writer.println("<li>" + req.getRequestURL() + "</li>");
-        writer.println("<li>" + req.getContextPath() + "</li>");
-        writer.println("<li>" + req.getPathInfo() + "</li>");
-        writer.println("<li>" + req.getHeader("User-Agent") + "</li>");
-        writer.println("</ul>");
+        req.getRequestDispatcher("/inscripcions.jsp").forward(req, resp);
+        //resp.setContentType("text/html;charset=UTF-8");
+//
+        //PrintWriter writer = resp.getWriter();
+//
+        //writer.println("<ul>");
+        //writer.println("<li>" + req.getParameter("nom") + "</li>");
+        //writer.println("<li>" + req.getMethod() + "</li>");
+        //writer.println("<li>" + req.getRequestURI() + "</li>");
+        //writer.println("<li>" + req.getRequestURL() + "</li>");
+        //writer.println("<li>" + req.getContextPath() + "</li>");
+        //writer.println("<li>" + req.getPathInfo() + "</li>");
+        //writer.println("<li>" + req.getHeader("User-Agent") + "</li>");
+        //writer.println("</ul>");
     }
 }

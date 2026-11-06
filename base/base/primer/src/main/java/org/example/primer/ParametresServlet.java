@@ -1,6 +1,5 @@
 package org.example.primer;
 
-import jakarta.servlet.ServletConfig;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
@@ -14,12 +13,14 @@ import java.util.List;
 
 public class ParametresServlet extends HttpServlet {
 
-    private List<String> alumnes = new ArrayList<>();
+    private List<Inscripcio> alumnes = new ArrayList<>();
 
     @Override
     public void init() throws ServletException {
-        alumnes.add("Paulo");
-        alumnes.add("Mateu");
+        alumnes.add(new Inscripcio("Paulo", 20, "Grau mitja"));
+        alumnes.add(new Inscripcio("Mateu", 20, "Grau mitja"));
+        alumnes.add(new Inscripcio("Inti", 20, "Grau mitja"));
+        alumnes.add(new Inscripcio("Toni", 20, "Grau mitja"));
     }
 
     @Override
@@ -28,22 +29,25 @@ public class ParametresServlet extends HttpServlet {
 
         PrintWriter writer = resp.getWriter();
 
-        String[] noms = req.getParameterValues("nom");
+        String parametre = req.getParameter("nom");
 
-        writer.println("<ul>");
-        for(String nom : noms){
-            writer.println("<li>" + nom + "</li>");
+        try{
+            int index = Integer.parseInt(parametre);
+            writer.println("<h2>" + alumnes.get(index) + "</h2>");
+        }catch (NumberFormatException | IndexOutOfBoundsException e){
+            writer.println("<p>" + "No se ha encontrado el alumno" + "</p>");
         }
-        writer.println("</ul>");
 
-        writer.println("<h2>" + req.getParameter("nom") + "</h2>");
-        writer.println("<h2>" + req.getParameter("edat") + "</h2>");
 
-        String index = alumnes.get(1);
-        if(index.isEmpty()){
-            writer.println("<h1>" + "error" + "</h1>");
-        }else{
-            writer.println("<h1>" + index + "</h1>");
-        }
+    }
+
+    @Override
+    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+
+        String nom = req.getParameter("nom");
+
+        String studis = switch ()
+        //Guardar el valor del formulario
+        resp.sendRedirect("parametres");
     }
 }
