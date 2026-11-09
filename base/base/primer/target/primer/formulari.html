@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Inscripción</title>
+</head>
+<body>
+<h1>Inscripción</h1>
+
+<form action="parametres" method="post">
+  <label for="nom">Nombre:</label>
+  <input type="text" id="nom" name="nom" required>
+  <br><br>
+
+  <label for="edat">Edad:</label>
+  <input type="number" id="edat" name="edat" min="0" required>
+  <br><br>
+
+  <label for="estudis">Estudios:</label>
+  <select id="estudis" name="estudis" required>
+    <option value="">-- Selecciona --</option>
+    <option value="grau mitja">Grado medio</option>
+    <option value="grau superior">Grado superior</option>
+    <option value="curs especialitzacio">Especialización</option>
+  </select>
+  <br><br>
+
+  <button type="submit">Inscribirse</button>
+</form>
+</body>
+</html>

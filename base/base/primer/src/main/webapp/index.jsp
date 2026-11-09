@@ -5,7 +5,11 @@
   <title>JSP - Hello World</title>
 </head>
 <body>
-<h1><%= "Hello World!" %></h1>
+
+<%String nom = "pere"; %>
+<%for (int i = 0; i < 4; i++){ %>
+  <h1><%= nom %></h1>
+<% } %>
 <br/>
 <a href="parametres">Servlet de parámetros</a>
 </body>
