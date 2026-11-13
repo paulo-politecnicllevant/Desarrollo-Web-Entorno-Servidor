@@ -5,13 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d12c3e7e-21c8-4620-a53f-e080410d7bf4" name="Changes" comment="Base prueba de Jakarta EE">
+      <change afterPath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/src/main/java/org/example/jdbcdao/controller/TallersServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/src/main/java/org/example/jdbcdao/model/Taller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/src/main/webapp/WEB-INF/tallers.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Videos-PHP/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Videos-PHP/.idea/php.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Jsp File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -29,6 +40,13 @@
     &quot;accountId&quot;: &quot;28c5d1ce-c9b4-4984-9f06-8aaa2a692b02&quot;
   }
 }</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4,
   &quot;fromUser&quot;: false
@@ -45,19 +63,33 @@
   "keyToString": {
     "Docker.base/compose.yaml.tomcat: Compose Deployment.executor": "Run",
     "Docker.base/compose.yaml: Compose Deployment.executor": "Run",
+    "Maven.jdbcdao [clean].executor": "Run",
+    "Maven.jdbcdao [compile].executor": "Run",
+    "Maven.jdbcdao [install].executor": "Run",
+    "Maven.jdbcdao [package].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "Jakarta__EE",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/alumati/Escriptori/2o DAW/Desarrollo-Web-Entorno-Servidor/base/base",
+    "last_opened_file_path": "/home/alumati/Escriptori/2o DAW/Desarrollo-Web-Entorno-Servidor/codi-explicatiu",
+    "node.js.detected.package.jshint": "true",
+    "node.js.selected.package.jshint": "",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.41724136"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/codi-explicatiu/jdbcdao/src/main/java/org/example/jdbcdao/model" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/codi-explicatiu/jdbcdao/src/main/webapp/WEB-INF" />
+    </key>
+  </component>
   <component name="RunManager" selected="Docker.base/compose.yaml.tomcat: Compose Deployment">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="Desarrollo Entorno Servidor" />
