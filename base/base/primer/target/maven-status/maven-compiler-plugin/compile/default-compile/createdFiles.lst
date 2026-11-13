@@ -1,5 +1,5 @@
-org/example/primer/Inscripcio.class
-org/example/primer/AlumnesServlet.class
-org/example/primer/HelloServlet.class
-org/example/primer/ParametresServlet.class
-org/example/primer/InfoServlet.class
+org/example/primer/controller/AlumnesServlet.class
+org/example/primer/model/Inscripcio.class
+org/example/primer/controller/ParametresServlet.class
+org/example/primer/controller/HelloServlet.class
+org/example/primer/controller/InfoServlet.class

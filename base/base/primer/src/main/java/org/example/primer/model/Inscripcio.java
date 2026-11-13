@@ -1,4 +1,4 @@
-package org.example.primer;
+package org.example.primer.model;
 
 public class Inscripcio {
     private String nom;

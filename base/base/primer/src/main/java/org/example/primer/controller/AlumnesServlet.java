@@ -1,4 +1,4 @@
-package org.example.primer;
+package org.example.primer.controller;
 
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;

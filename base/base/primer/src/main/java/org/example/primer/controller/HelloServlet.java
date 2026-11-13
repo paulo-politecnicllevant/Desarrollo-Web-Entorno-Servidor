@@ -1,4 +1,4 @@
-package org.example.primer;
+package org.example.primer.controller;
 
 import java.io.*;
 import jakarta.servlet.http.*;

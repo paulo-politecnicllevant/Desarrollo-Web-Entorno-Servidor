@@ -1,4 +1,4 @@
-<%@ page import="org.example.primer.Inscripcio" %>
+<%@ page import="org.example.primer.model.Inscripcio" %>
 <%@ page import="java.util.List" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>

@@ -6,7 +6,7 @@
     
     <servlet>
         <servlet-name>parametresServlet</servlet-name>
-        <servlet-class>org.example.primer.ParametresServlet</servlet-class>
+        <servlet-class>org.example.primer.controller.ParametresServlet</servlet-class>
     </servlet>
     
     <servlet-mapping>

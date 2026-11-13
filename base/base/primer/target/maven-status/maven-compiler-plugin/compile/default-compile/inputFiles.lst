@@ -1,5 +1,5 @@
-/apps/primer/src/main/java/org/example/primer/AlumnesServlet.java
-/apps/primer/src/main/java/org/example/primer/HelloServlet.java
-/apps/primer/src/main/java/org/example/primer/InfoServlet.java
-/apps/primer/src/main/java/org/example/primer/Inscripcio.java
-/apps/primer/src/main/java/org/example/primer/ParametresServlet.java
+/home/alumati/Escriptori/2o DAW/Desarrollo-Web-Entorno-Servidor/base/base/primer/src/main/java/org/example/primer/controller/AlumnesServlet.java
+/home/alumati/Escriptori/2o DAW/Desarrollo-Web-Entorno-Servidor/base/base/primer/src/main/java/org/example/primer/controller/HelloServlet.java
+/home/alumati/Escriptori/2o DAW/Desarrollo-Web-Entorno-Servidor/base/base/primer/src/main/java/org/example/primer/controller/InfoServlet.java
+/home/alumati/Escriptori/2o DAW/Desarrollo-Web-Entorno-Servidor/base/base/primer/src/main/java/org/example/primer/controller/ParametresServlet.java
+/home/alumati/Escriptori/2o DAW/Desarrollo-Web-Entorno-Servidor/base/base/primer/src/main/java/org/example/primer/model/Inscripcio.java

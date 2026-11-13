@@ -1,13 +1,12 @@
-package org.example.primer;
+package org.example.primer.controller;
 
 import jakarta.servlet.ServletException;
-import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
+import org.example.primer.model.Inscripcio;
 
 import java.io.IOException;
-import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -57,6 +56,6 @@ public class ParametresServlet extends HttpServlet {
         }
 
         //Guardar el valor del formulario
-        resp.sendRedirect("parametres");
+        resp.sendRedirect(req.getContextPath() + "/parametres");
     }
 }
