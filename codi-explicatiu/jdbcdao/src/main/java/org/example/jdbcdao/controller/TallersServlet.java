@@ -6,9 +6,8 @@ import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
-import org.example.jdbcdao.dao.TallerDao;
-import org.example.jdbcdao.dao.TallerDaoMemoryImpl;
 import org.example.jdbcdao.model.Taller;
+import org.example.jdbcdao.model.TallerModel;
 
 import java.io.IOException;
 import java.util.List;
@@ -16,16 +15,16 @@ import java.util.List;
 @WebServlet("/tallers")
 public class TallersServlet extends HttpServlet {
 
-    private TallerDao modelTaller;
+    TallerModel tallerModel;
 
     @Override
     public void init(ServletConfig config) throws ServletException {
-        modelTaller = new TallerDaoMemoryImpl();
+        tallerModel = TallerModel.instancia();
     }
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        List<Taller> tallers = modelTaller.getAll();
+        List<Taller> tallers = tallerModel.tallers();
 
         System.out.println("TALLERS: " + tallers);
 

@@ -1,0 +1,8 @@
+org/example/jdbcdao/dao/jdbc/TallerDaoJdbcImpl.class
+org/example/jdbcdao/dao/memory/TallerDaoMemoryImpl.class
+org/example/jdbcdao/model/TallerModel.class
+org/example/jdbcdao/dao/jdbc/BaseDeDades.class
+org/example/jdbcdao/dao/TallerDao.class
+org/example/jdbcdao/model/Taller.class
+org/example/jdbcdao/controller/TallersServlet.class
+org/example/jdbcdao/HelloServlet.class

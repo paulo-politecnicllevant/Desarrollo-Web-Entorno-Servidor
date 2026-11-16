@@ -1,0 +1,8 @@
+/home/alumati/Escriptori/2o DAW/Desarrollo-Web-Entorno-Servidor/codi-explicatiu/jdbcdao/src/main/java/org/example/jdbcdao/HelloServlet.java
+/home/alumati/Escriptori/2o DAW/Desarrollo-Web-Entorno-Servidor/codi-explicatiu/jdbcdao/src/main/java/org/example/jdbcdao/controller/TallersServlet.java
+/home/alumati/Escriptori/2o DAW/Desarrollo-Web-Entorno-Servidor/codi-explicatiu/jdbcdao/src/main/java/org/example/jdbcdao/dao/TallerDao.java
+/home/alumati/Escriptori/2o DAW/Desarrollo-Web-Entorno-Servidor/codi-explicatiu/jdbcdao/src/main/java/org/example/jdbcdao/dao/jdbc/BaseDeDades.java
+/home/alumati/Escriptori/2o DAW/Desarrollo-Web-Entorno-Servidor/codi-explicatiu/jdbcdao/src/main/java/org/example/jdbcdao/dao/jdbc/TallerDaoJdbcImpl.java
+/home/alumati/Escriptori/2o DAW/Desarrollo-Web-Entorno-Servidor/codi-explicatiu/jdbcdao/src/main/java/org/example/jdbcdao/dao/memory/TallerDaoMemoryImpl.java
+/home/alumati/Escriptori/2o DAW/Desarrollo-Web-Entorno-Servidor/codi-explicatiu/jdbcdao/src/main/java/org/example/jdbcdao/model/Taller.java
+/home/alumati/Escriptori/2o DAW/Desarrollo-Web-Entorno-Servidor/codi-explicatiu/jdbcdao/src/main/java/org/example/jdbcdao/model/TallerModel.java
