@@ -41,8 +41,38 @@ public class TallerDaoJdbcImpl implements TallerDao {
         }
     }
 
+
     @Override
     public Taller getById(String id) {
-        return null;
+
+        String sql = "SELECT * FROM taller WHERE id = ?";
+
+        try (
+                Connection conn = BaseDeDades.connexio();
+                PreparedStatement query = conn.prepareStatement(sql)
+        ) {
+
+            query.setString(1, id);
+
+            try (ResultSet files = query.executeQuery()) {
+
+                if (files.next()) {
+
+                    Taller taller = new Taller();
+
+                    taller.setId(files.getString("id"));
+                    taller.setNom(files.getString("nom"));
+                    taller.setPonent(files.getString("ponent"));
+                    taller.setDia(files.getObject("dia", LocalDate.class));
+                    taller.setPlaces(files.getInt("places"));
+                    taller.setPreu(files.getBigDecimal("preu"));
+
+                    return taller;
+                }
+                return null;
+            }
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
     }
 }

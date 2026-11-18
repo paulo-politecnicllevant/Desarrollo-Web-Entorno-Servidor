@@ -5,4 +5,5 @@ org/example/jdbcdao/dao/jdbc/BaseDeDades.class
 org/example/jdbcdao/dao/TallerDao.class
 org/example/jdbcdao/model/Taller.class
 org/example/jdbcdao/controller/TallersServlet.class
+org/example/jdbcdao/controller/TallerServlet.class
 org/example/jdbcdao/HelloServlet.class
