@@ -4,12 +4,44 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d12c3e7e-21c8-4620-a53f-e080410d7bf4" name="Changes" comment="Base prueba de Jakarta EE">
-      <change afterPath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/src/main/java/org/example/jdbcdao/controller/TallersServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/src/main/java/org/example/jdbcdao/model/Taller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/src/main/webapp/WEB-INF/tallers.jsp" afterDir="false" />
+    <list default="true" id="d12c3e7e-21c8-4620-a53f-e080410d7bf4" name="Changes" comment=".gitignore">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Videos-PHP/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Videos-PHP/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/1-servlets/target/dependency/.pom" beforeDir="false" afterPath="$PROJECT_DIR$/codi-explicatiu/1-servlets/target/dependency/.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/2-jsp/target/dependency/.pom" beforeDir="false" afterPath="$PROJECT_DIR$/codi-explicatiu/2-jsp/target/dependency/.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/3-mvc/target/dependency/.pom" beforeDir="false" afterPath="$PROJECT_DIR$/codi-explicatiu/3-mvc/target/dependency/.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/4-sessions/target/dependency/.pom" beforeDir="false" afterPath="$PROJECT_DIR$/codi-explicatiu/4-sessions/target/dependency/.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/5-jdbc/target/dependency/.pom" beforeDir="false" afterPath="$PROJECT_DIR$/codi-explicatiu/5-jdbc/target/dependency/.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/6-jpa/target/dependency/.pom" beforeDir="false" afterPath="$PROJECT_DIR$/codi-explicatiu/6-jpa/target/dependency/.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/docker/vigila.sh" beforeDir="false" afterPath="$PROJECT_DIR$/codi-explicatiu/docker/vigila.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/src/main/java/org/example/jdbcdao/controller/TallerServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/src/main/java/org/example/jdbcdao/controller/TallerServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/src/main/java/org/example/jdbcdao/controller/TallersServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/src/main/java/org/example/jdbcdao/controller/TallersServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/src/main/java/org/example/jdbcdao/dao/TallerDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/src/main/java/org/example/jdbcdao/dao/TallerDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/src/main/java/org/example/jdbcdao/dao/jdbc/TallerDaoJdbcImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/src/main/java/org/example/jdbcdao/dao/jdbc/TallerDaoJdbcImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/src/main/java/org/example/jdbcdao/dao/memory/TallerDaoMemoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/src/main/java/org/example/jdbcdao/dao/memory/TallerDaoMemoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/src/main/java/org/example/jdbcdao/model/TallerModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/src/main/java/org/example/jdbcdao/model/TallerModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/src/main/webapp/WEB-INF/tallers.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/src/main/webapp/WEB-INF/tallers.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/target/classes/org/example/jdbcdao/controller/TallerServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/target/classes/org/example/jdbcdao/controller/TallerServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/target/classes/org/example/jdbcdao/controller/TallersServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/target/classes/org/example/jdbcdao/controller/TallersServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/target/classes/org/example/jdbcdao/dao/TallerDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/target/classes/org/example/jdbcdao/dao/TallerDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/target/classes/org/example/jdbcdao/dao/jdbc/TallerDaoJdbcImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/target/classes/org/example/jdbcdao/dao/jdbc/TallerDaoJdbcImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/target/classes/org/example/jdbcdao/dao/memory/TallerDaoMemoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/target/classes/org/example/jdbcdao/dao/memory/TallerDaoMemoryImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/target/classes/org/example/jdbcdao/model/TallerModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/target/classes/org/example/jdbcdao/model/TallerModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/target/dependency/.pom" beforeDir="false" afterPath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/target/dependency/.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/target/jdbcdao-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/target/jdbcdao-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/target/jdbcdao-1.0-SNAPSHOT/WEB-INF/classes/org/example/jdbcdao/controller/TallerServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/target/jdbcdao-1.0-SNAPSHOT/WEB-INF/classes/org/example/jdbcdao/controller/TallerServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/target/jdbcdao-1.0-SNAPSHOT/WEB-INF/classes/org/example/jdbcdao/controller/TallersServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/target/jdbcdao-1.0-SNAPSHOT/WEB-INF/classes/org/example/jdbcdao/controller/TallersServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/target/jdbcdao-1.0-SNAPSHOT/WEB-INF/classes/org/example/jdbcdao/dao/TallerDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/target/jdbcdao-1.0-SNAPSHOT/WEB-INF/classes/org/example/jdbcdao/dao/TallerDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/target/jdbcdao-1.0-SNAPSHOT/WEB-INF/classes/org/example/jdbcdao/dao/jdbc/TallerDaoJdbcImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/target/jdbcdao-1.0-SNAPSHOT/WEB-INF/classes/org/example/jdbcdao/dao/jdbc/TallerDaoJdbcImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/target/jdbcdao-1.0-SNAPSHOT/WEB-INF/classes/org/example/jdbcdao/dao/memory/TallerDaoMemoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/target/jdbcdao-1.0-SNAPSHOT/WEB-INF/classes/org/example/jdbcdao/dao/memory/TallerDaoMemoryImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/target/jdbcdao-1.0-SNAPSHOT/WEB-INF/classes/org/example/jdbcdao/model/TallerModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/target/jdbcdao-1.0-SNAPSHOT/WEB-INF/classes/org/example/jdbcdao/model/TallerModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/target/jdbcdao-1.0-SNAPSHOT/WEB-INF/tallers.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/target/jdbcdao-1.0-SNAPSHOT/WEB-INF/tallers.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,29 +91,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Docker.base/compose.yaml.tomcat: Compose Deployment.executor": "Run",
-    "Docker.base/compose.yaml: Compose Deployment.executor": "Run",
-    "Maven.jdbcdao [clean].executor": "Run",
-    "Maven.jdbcdao [compile].executor": "Run",
-    "Maven.jdbcdao [install].executor": "Run",
-    "Maven.jdbcdao [package].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "Jakarta__EE",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/alumati/Escriptori/2o DAW/Desarrollo-Web-Entorno-Servidor/codi-explicatiu",
-    "node.js.detected.package.jshint": "true",
-    "node.js.selected.package.jshint": "",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.41724136"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Docker.base/compose.yaml.tomcat: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.base/compose.yaml: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.jdbcdao [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.jdbcdao [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.jdbcdao [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.jdbcdao [package].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Jakarta__EE&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/alumati/Escriptori/2o DAW/Desarrollo-Web-Entorno-Servidor/codi-explicatiu&quot;,
+    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.41724136&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/codi-explicatiu/jdbcdao/src/main/java/org/example/jdbcdao/model" />

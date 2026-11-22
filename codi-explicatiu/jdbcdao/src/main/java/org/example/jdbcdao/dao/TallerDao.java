@@ -7,4 +7,5 @@ import java.util.List;
 public interface TallerDao {
     List<Taller> getAll();
     Taller getById(String id);
+    void insertarTaller(Taller taller);
 }

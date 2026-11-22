@@ -10,6 +10,9 @@ import org.example.jdbcdao.model.Taller;
 import org.example.jdbcdao.model.TallerModel;
 
 import java.io.IOException;
+import java.math.BigDecimal;
+import java.time.LocalDate;
+import java.time.format.DateTimeParseException;
 import java.util.List;
 
 @WebServlet("/tallers")
@@ -31,5 +34,11 @@ public class TallersServlet extends HttpServlet {
         req.setAttribute("tallers", tallers);
 
         req.getRequestDispatcher("/WEB-INF/tallers.jsp").forward(req, resp);
+    }
+
+    @Override
+    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        //El formulario se envía a /tallers
+        req.getRequestDispatcher("/taller").forward(req, resp);
     }
 }

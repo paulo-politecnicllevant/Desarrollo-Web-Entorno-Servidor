@@ -22,4 +22,17 @@ public class TallerModel {
     public Taller taller(String id){
         return tallerDao.getById(id); //Esto coge el getAll de la clase TallerDaoMemoryImpl
     }
+
+    public List<String> crea(Taller taller) {
+        List<String> errors = taller.valida();
+
+        if (errors.isEmpty() && tallerDao.getById(taller.getId()) != null) {
+            errors.add("Ja existeix un taller amb aquest codi.");
+        }
+
+        if (errors.isEmpty()) {
+            tallerDao.insertarTaller(taller);
+        }
+        return errors;
+    }
 }

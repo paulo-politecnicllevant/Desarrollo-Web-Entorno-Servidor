@@ -75,4 +75,25 @@ public class TallerDaoJdbcImpl implements TallerDao {
             throw new RuntimeException(e);
         }
     }
+
+    @Override
+    public void insertarTaller(Taller taller) {
+        String sql = "INSERT INTO taller (id, nom, ponent, dia, places, preu) VALUES (?, ?, ?, ?, ?, ?)";
+
+        try (
+                Connection conn = BaseDeDades.connexio();
+                PreparedStatement query = conn.prepareStatement(sql)
+        ) {
+            query.setString(1, taller.getId());
+            query.setString(2, taller.getNom());
+            query.setString(3, taller.getPonent());
+            query.setObject(4, taller.getDia());
+            query.setInt(5, taller.getPlaces());
+            query.setBigDecimal(6, taller.getPreu());
+
+            query.executeUpdate();
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+    }
 }

@@ -35,4 +35,9 @@ public class TallerDaoMemoryImpl implements TallerDao {
     public Taller getById(String id) {
         return tallers.get(id);
     }
+
+    @Override
+    public void insertarTaller(Taller taller) {
+        afegeixTaller(taller);
+    }
 }
