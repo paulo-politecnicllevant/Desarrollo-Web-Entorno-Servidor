@@ -1,23 +1,23 @@
-/apps/5-jdbc/src/main/java/controlador/AnullaServlet.java
-/apps/5-jdbc/src/main/java/controlador/InscriuServlet.java
-/apps/5-jdbc/src/main/java/controlador/LoginServlet.java
-/apps/5-jdbc/src/main/java/controlador/LogoutServlet.java
-/apps/5-jdbc/src/main/java/controlador/MevesInscripcionsServlet.java
-/apps/5-jdbc/src/main/java/controlador/TallersServlet.java
-/apps/5-jdbc/src/main/java/controlador/TotesServlet.java
-/apps/5-jdbc/src/main/java/controlador/VisitesServlet.java
-/apps/5-jdbc/src/main/java/dao/DaoException.java
-/apps/5-jdbc/src/main/java/dao/InscripcioDao.java
-/apps/5-jdbc/src/main/java/dao/TallerDao.java
-/apps/5-jdbc/src/main/java/dao/UsuariDao.java
-/apps/5-jdbc/src/main/java/dao/jdbc/BaseDeDades.java
-/apps/5-jdbc/src/main/java/dao/jdbc/InscripcioDaoJdbc.java
-/apps/5-jdbc/src/main/java/dao/jdbc/TallerDaoJdbc.java
-/apps/5-jdbc/src/main/java/dao/jdbc/UsuariDaoJdbc.java
-/apps/5-jdbc/src/main/java/filtre/AdminFilter.java
-/apps/5-jdbc/src/main/java/filtre/AutenticacioFilter.java
-/apps/5-jdbc/src/main/java/filtre/RegistreFilter.java
-/apps/5-jdbc/src/main/java/model/Inscripcio.java
-/apps/5-jdbc/src/main/java/model/Jornades.java
-/apps/5-jdbc/src/main/java/model/Taller.java
-/apps/5-jdbc/src/main/java/model/Usuari.java
+/home/alumati/Escriptori/2o DAW/Desarrollo-Web-Entorno-Servidor/codi-explicatiu/5-jdbc/src/main/java/controlador/AnullaServlet.java
+/home/alumati/Escriptori/2o DAW/Desarrollo-Web-Entorno-Servidor/codi-explicatiu/5-jdbc/src/main/java/controlador/InscriuServlet.java
+/home/alumati/Escriptori/2o DAW/Desarrollo-Web-Entorno-Servidor/codi-explicatiu/5-jdbc/src/main/java/controlador/LoginServlet.java
+/home/alumati/Escriptori/2o DAW/Desarrollo-Web-Entorno-Servidor/codi-explicatiu/5-jdbc/src/main/java/controlador/LogoutServlet.java
+/home/alumati/Escriptori/2o DAW/Desarrollo-Web-Entorno-Servidor/codi-explicatiu/5-jdbc/src/main/java/controlador/MevesInscripcionsServlet.java
+/home/alumati/Escriptori/2o DAW/Desarrollo-Web-Entorno-Servidor/codi-explicatiu/5-jdbc/src/main/java/controlador/TallersServlet.java
+/home/alumati/Escriptori/2o DAW/Desarrollo-Web-Entorno-Servidor/codi-explicatiu/5-jdbc/src/main/java/controlador/TotesServlet.java
+/home/alumati/Escriptori/2o DAW/Desarrollo-Web-Entorno-Servidor/codi-explicatiu/5-jdbc/src/main/java/controlador/VisitesServlet.java
+/home/alumati/Escriptori/2o DAW/Desarrollo-Web-Entorno-Servidor/codi-explicatiu/5-jdbc/src/main/java/dao/DaoException.java
+/home/alumati/Escriptori/2o DAW/Desarrollo-Web-Entorno-Servidor/codi-explicatiu/5-jdbc/src/main/java/dao/InscripcioDao.java
+/home/alumati/Escriptori/2o DAW/Desarrollo-Web-Entorno-Servidor/codi-explicatiu/5-jdbc/src/main/java/dao/TallerDao.java
+/home/alumati/Escriptori/2o DAW/Desarrollo-Web-Entorno-Servidor/codi-explicatiu/5-jdbc/src/main/java/dao/UsuariDao.java
+/home/alumati/Escriptori/2o DAW/Desarrollo-Web-Entorno-Servidor/codi-explicatiu/5-jdbc/src/main/java/dao/jdbc/BaseDeDades.java
+/home/alumati/Escriptori/2o DAW/Desarrollo-Web-Entorno-Servidor/codi-explicatiu/5-jdbc/src/main/java/dao/jdbc/InscripcioDaoJdbc.java
+/home/alumati/Escriptori/2o DAW/Desarrollo-Web-Entorno-Servidor/codi-explicatiu/5-jdbc/src/main/java/dao/jdbc/TallerDaoJdbc.java
+/home/alumati/Escriptori/2o DAW/Desarrollo-Web-Entorno-Servidor/codi-explicatiu/5-jdbc/src/main/java/dao/jdbc/UsuariDaoJdbc.java
+/home/alumati/Escriptori/2o DAW/Desarrollo-Web-Entorno-Servidor/codi-explicatiu/5-jdbc/src/main/java/filtre/AdminFilter.java
+/home/alumati/Escriptori/2o DAW/Desarrollo-Web-Entorno-Servidor/codi-explicatiu/5-jdbc/src/main/java/filtre/AutenticacioFilter.java
+/home/alumati/Escriptori/2o DAW/Desarrollo-Web-Entorno-Servidor/codi-explicatiu/5-jdbc/src/main/java/filtre/RegistreFilter.java
+/home/alumati/Escriptori/2o DAW/Desarrollo-Web-Entorno-Servidor/codi-explicatiu/5-jdbc/src/main/java/model/Inscripcio.java
+/home/alumati/Escriptori/2o DAW/Desarrollo-Web-Entorno-Servidor/codi-explicatiu/5-jdbc/src/main/java/model/Jornades.java
+/home/alumati/Escriptori/2o DAW/Desarrollo-Web-Entorno-Servidor/codi-explicatiu/5-jdbc/src/main/java/model/Taller.java
+/home/alumati/Escriptori/2o DAW/Desarrollo-Web-Entorno-Servidor/codi-explicatiu/5-jdbc/src/main/java/model/Usuari.java
