@@ -1,4 +1,4 @@
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page contentType="text/html;charset=UTF-8" language="java" session="false" %>
 <%@ taglib prefix="c" uri="jakarta.tags.core" %>
 
 <!DOCTYPE html>
@@ -12,18 +12,17 @@
     <table border="1">
         <tr>
             <th>ID</th>
-            <td>${taller.id}</td>
+            <td><c:out value="${taller.id}"/></td>
         </tr>
         <tr>
             <th>Nombre</th>
-            <td>${taller.nom}</td>
+            <td><c:out value="${taller.nom}"/></td>
         </tr>
         <tr>
             <th>Ponente</th>
-            <td>${taller.ponent}</td>
+            <td><c:out value="${taller.ponent}"/></td>
         </tr>
-
-        <t>
+        <tr>
             <th>Día</th>
             <td>${taller.diaText}</td>
         </tr>

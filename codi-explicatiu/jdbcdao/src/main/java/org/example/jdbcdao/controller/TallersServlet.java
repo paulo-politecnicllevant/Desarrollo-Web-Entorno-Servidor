@@ -6,39 +6,33 @@ import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
+import jakarta.servlet.http.HttpSession;
 import org.example.jdbcdao.model.Taller;
 import org.example.jdbcdao.model.TallerModel;
 
 import java.io.IOException;
-import java.math.BigDecimal;
-import java.time.LocalDate;
-import java.time.format.DateTimeParseException;
 import java.util.List;
 
 @WebServlet("/tallers")
 public class TallersServlet extends HttpServlet {
 
-    TallerModel tallerModel;
+    private TallerModel tallerModel;
 
     @Override
     public void init(ServletConfig config) throws ServletException {
+        super.init(config);
         tallerModel = TallerModel.instancia();
     }
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         List<Taller> tallers = tallerModel.tallers();
-
-        System.out.println("TALLERS: " + tallers);
-
         req.setAttribute("tallers", tallers);
 
-        req.getRequestDispatcher("/WEB-INF/tallers.jsp").forward(req, resp);
-    }
+        HttpSession sessio = req.getSession(false);
+        String usuari = (sessio == null) ? null : (String) sessio.getAttribute("usuari");
+        req.setAttribute("usuari", usuari);
 
-    @Override
-    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        //El formulario se envía a /tallers
-        req.getRequestDispatcher("/taller").forward(req, resp);
+        req.getRequestDispatcher("/WEB-INF/tallers.jsp").forward(req, resp);
     }
 }

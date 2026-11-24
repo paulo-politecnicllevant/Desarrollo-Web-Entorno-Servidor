@@ -4,44 +4,159 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d12c3e7e-21c8-4620-a53f-e080410d7bf4" name="Changes" comment=".gitignore">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="d12c3e7e-21c8-4620-a53f-e080410d7bf4" name="Changes" comment="Código del formulario de creación de talleres">
+      <change afterPath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/respuestas-preguntas.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/src/main/java/org/example/jdbcdao/controller/LoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/src/main/java/org/example/jdbcdao/controller/LogoutServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/src/main/java/org/example/jdbcdao/controller/NouTallerServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/src/main/java/org/example/jdbcdao/filtre/AutenticacioFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/src/main/java/org/example/jdbcdao/model/Usuaris.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/src/main/webapp/WEB-INF/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/src/main/webapp/WEB-INF/nou-taller.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codi-explicatiu/1-servlets/target/dependency/.pom" beforeDir="false" afterPath="$PROJECT_DIR$/codi-explicatiu/1-servlets/target/dependency/.pom" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codi-explicatiu/2-jsp/target/dependency/.pom" beforeDir="false" afterPath="$PROJECT_DIR$/codi-explicatiu/2-jsp/target/dependency/.pom" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codi-explicatiu/3-mvc/target/dependency/.pom" beforeDir="false" afterPath="$PROJECT_DIR$/codi-explicatiu/3-mvc/target/dependency/.pom" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codi-explicatiu/4-sessions/target/dependency/.pom" beforeDir="false" afterPath="$PROJECT_DIR$/codi-explicatiu/4-sessions/target/dependency/.pom" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codi-explicatiu/5-jdbc/target/dependency/.pom" beforeDir="false" afterPath="$PROJECT_DIR$/codi-explicatiu/5-jdbc/target/dependency/.pom" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codi-explicatiu/6-jpa/target/dependency/.pom" beforeDir="false" afterPath="$PROJECT_DIR$/codi-explicatiu/6-jpa/target/dependency/.pom" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codi-explicatiu/docker/vigila.sh" beforeDir="false" afterPath="$PROJECT_DIR$/codi-explicatiu/docker/vigila.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/1-servlets/target/classes/ciclevida/ComptadorServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/1-servlets/target/classes/dades/InscripcioServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/1-servlets/target/classes/dades/SalutacioServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/1-servlets/target/classes/primer/HolaServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/1-servlets/target/classes/primer/PeticioServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/1-servlets/target/classes/resposta/EnllacServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/1-servlets/target/classes/resposta/HoraServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/1-servlets/target/classes/util/Html.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/1-servlets/target/dependency/.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/1-servlets/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/1-servlets/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/2-jsp/target/classes/errors/FallaServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/2-jsp/target/classes/etiquetes/InscripcioServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/2-jsp/target/classes/etiquetes/SalutacioServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/2-jsp/target/classes/etiquetes/TallerServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/2-jsp/target/classes/etiquetes/TallersServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/2-jsp/target/classes/expressions/ElServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/2-jsp/target/classes/model/Jornades.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/2-jsp/target/classes/model/Taller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/2-jsp/target/classes/servletjsp/AnarServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/2-jsp/target/classes/servletjsp/BenvingudaServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/2-jsp/target/classes/servletjsp/DestiServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/2-jsp/target/dependency/.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/2-jsp/target/dependency/jakarta.servlet.jsp.jstl-3.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/2-jsp/target/dependency/jakarta.servlet.jsp.jstl-api-3.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/2-jsp/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/2-jsp/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/3-mvc/target/classes/controlador/AnullaServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/3-mvc/target/classes/controlador/ConfirmacioServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/3-mvc/target/classes/controlador/InscripcioServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/3-mvc/target/classes/controlador/InscripcionsServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/3-mvc/target/classes/controlador/Parametres.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/3-mvc/target/classes/controlador/TallersServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/3-mvc/target/classes/model/Inscripcio.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/3-mvc/target/classes/model/Jornades.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/3-mvc/target/classes/model/Taller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/3-mvc/target/dependency/.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/3-mvc/target/dependency/jakarta.servlet.jsp.jstl-3.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/3-mvc/target/dependency/jakarta.servlet.jsp.jstl-api-3.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/3-mvc/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/3-mvc/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/4-sessions/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/codi-explicatiu/4-sessions/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/4-sessions/target/classes/controlador/AnullaServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/4-sessions/target/classes/controlador/InscriuServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/4-sessions/target/classes/controlador/LoginServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/4-sessions/target/classes/controlador/LogoutServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/4-sessions/target/classes/controlador/MevesInscripcionsServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/4-sessions/target/classes/controlador/TallersServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/4-sessions/target/classes/controlador/TotesServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/4-sessions/target/classes/controlador/VisitesServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/4-sessions/target/classes/filtre/AdminFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/4-sessions/target/classes/filtre/AutenticacioFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/4-sessions/target/classes/filtre/RegistreFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/4-sessions/target/classes/model/Inscripcio.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/4-sessions/target/classes/model/Jornades.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/4-sessions/target/classes/model/Taller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/4-sessions/target/classes/model/Usuari.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/4-sessions/target/dependency/.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/4-sessions/target/dependency/jakarta.servlet.jsp.jstl-3.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/4-sessions/target/dependency/jakarta.servlet.jsp.jstl-api-3.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/4-sessions/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/4-sessions/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/5-jdbc/target/classes/controlador/AnullaServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/5-jdbc/target/classes/controlador/InscriuServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/5-jdbc/target/classes/controlador/LoginServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/5-jdbc/target/classes/controlador/LogoutServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/5-jdbc/target/classes/controlador/MevesInscripcionsServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/5-jdbc/target/classes/controlador/TallersServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/5-jdbc/target/classes/controlador/TotesServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/5-jdbc/target/classes/controlador/VisitesServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/5-jdbc/target/classes/dao/DaoException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/5-jdbc/target/classes/dao/InscripcioDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/5-jdbc/target/classes/dao/TallerDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/5-jdbc/target/classes/dao/UsuariDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/5-jdbc/target/classes/dao/jdbc/BaseDeDades.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/5-jdbc/target/classes/dao/jdbc/InscripcioDaoJdbc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/5-jdbc/target/classes/dao/jdbc/TallerDaoJdbc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/5-jdbc/target/classes/dao/jdbc/UsuariDaoJdbc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/5-jdbc/target/classes/filtre/AdminFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/5-jdbc/target/classes/filtre/AutenticacioFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/5-jdbc/target/classes/filtre/RegistreFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/5-jdbc/target/classes/model/Inscripcio.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/5-jdbc/target/classes/model/Jornades.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/5-jdbc/target/classes/model/Taller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/5-jdbc/target/classes/model/Usuari.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/5-jdbc/target/dependency/.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/5-jdbc/target/dependency/jakarta.servlet.jsp.jstl-3.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/5-jdbc/target/dependency/jakarta.servlet.jsp.jstl-api-3.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/5-jdbc/target/dependency/mysql-connector-j-26.10.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/5-jdbc/target/dependency/protobuf-java-4.36.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/5-jdbc/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/5-jdbc/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/6-jpa/target/classes/META-INF/persistence.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/6-jpa/target/classes/controlador/AnullaServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/6-jpa/target/classes/controlador/InscriuServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/6-jpa/target/classes/controlador/LoginServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/6-jpa/target/classes/controlador/LogoutServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/6-jpa/target/classes/controlador/MevesInscripcionsServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/6-jpa/target/classes/controlador/TallersServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/6-jpa/target/classes/controlador/TotesServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/6-jpa/target/classes/controlador/VisitesServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/6-jpa/target/classes/dao/DaoException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/6-jpa/target/classes/dao/InscripcioDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/6-jpa/target/classes/dao/TallerDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/6-jpa/target/classes/dao/UsuariDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/6-jpa/target/classes/dao/jpa/InscripcioDaoJpa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/6-jpa/target/classes/dao/jpa/Persistencia.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/6-jpa/target/classes/dao/jpa/TallerDaoJpa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/6-jpa/target/classes/dao/jpa/UsuariDaoJpa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/6-jpa/target/classes/filtre/AdminFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/6-jpa/target/classes/filtre/AutenticacioFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/6-jpa/target/classes/filtre/RegistreFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/6-jpa/target/classes/model/Inscripcio.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/6-jpa/target/classes/model/Jornades.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/6-jpa/target/classes/model/Taller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/6-jpa/target/classes/model/Usuari.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/6-jpa/target/dependency/.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/6-jpa/target/dependency/angus-activation-2.0.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/6-jpa/target/dependency/antlr4-runtime-4.13.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/6-jpa/target/dependency/byte-buddy-1.18.14.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/6-jpa/target/dependency/hibernate-core-7.4.14.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/6-jpa/target/dependency/hibernate-models-1.1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/6-jpa/target/dependency/istack-commons-runtime-4.1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/6-jpa/target/dependency/jakarta.activation-api-2.1.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/6-jpa/target/dependency/jakarta.inject-api-2.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/6-jpa/target/dependency/jakarta.persistence-api-3.2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/6-jpa/target/dependency/jakarta.servlet.jsp.jstl-3.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/6-jpa/target/dependency/jakarta.servlet.jsp.jstl-api-3.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/6-jpa/target/dependency/jakarta.transaction-api-2.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/6-jpa/target/dependency/jakarta.xml.bind-api-4.0.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/6-jpa/target/dependency/jaxb-core-4.0.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/6-jpa/target/dependency/jaxb-runtime-4.0.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/6-jpa/target/dependency/jboss-logging-3.6.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/6-jpa/target/dependency/mysql-connector-j-26.10.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/6-jpa/target/dependency/protobuf-java-4.36.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/6-jpa/target/dependency/txw2-4.0.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/6-jpa/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/6-jpa/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/docker/compila.sh" beforeDir="false" afterPath="$PROJECT_DIR$/codi-explicatiu/docker/compila.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/src/main/java/org/example/jdbcdao/controller/TallerServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/src/main/java/org/example/jdbcdao/controller/TallerServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/src/main/java/org/example/jdbcdao/controller/TallersServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/src/main/java/org/example/jdbcdao/controller/TallersServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/src/main/java/org/example/jdbcdao/dao/TallerDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/src/main/java/org/example/jdbcdao/dao/TallerDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/src/main/java/org/example/jdbcdao/dao/jdbc/TallerDaoJdbcImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/src/main/java/org/example/jdbcdao/dao/jdbc/TallerDaoJdbcImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/src/main/java/org/example/jdbcdao/dao/memory/TallerDaoMemoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/src/main/java/org/example/jdbcdao/dao/memory/TallerDaoMemoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/src/main/java/org/example/jdbcdao/model/TallerModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/src/main/java/org/example/jdbcdao/model/TallerModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/src/main/webapp/WEB-INF/taller.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/src/main/webapp/WEB-INF/taller.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/src/main/webapp/WEB-INF/tallers.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/src/main/webapp/WEB-INF/tallers.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/target/classes/org/example/jdbcdao/controller/TallerServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/target/classes/org/example/jdbcdao/controller/TallerServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/target/classes/org/example/jdbcdao/controller/TallersServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/target/classes/org/example/jdbcdao/controller/TallersServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/target/classes/org/example/jdbcdao/dao/TallerDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/target/classes/org/example/jdbcdao/dao/TallerDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/target/classes/org/example/jdbcdao/dao/jdbc/TallerDaoJdbcImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/target/classes/org/example/jdbcdao/dao/jdbc/TallerDaoJdbcImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/target/classes/org/example/jdbcdao/dao/memory/TallerDaoMemoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/target/classes/org/example/jdbcdao/dao/memory/TallerDaoMemoryImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/target/classes/org/example/jdbcdao/model/TallerModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/target/classes/org/example/jdbcdao/model/TallerModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/target/dependency/.pom" beforeDir="false" afterPath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/target/dependency/.pom" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/target/jdbcdao-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/target/jdbcdao-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/target/jdbcdao-1.0-SNAPSHOT/WEB-INF/classes/org/example/jdbcdao/controller/TallerServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/target/jdbcdao-1.0-SNAPSHOT/WEB-INF/classes/org/example/jdbcdao/controller/TallerServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/target/jdbcdao-1.0-SNAPSHOT/WEB-INF/classes/org/example/jdbcdao/controller/TallersServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/target/jdbcdao-1.0-SNAPSHOT/WEB-INF/classes/org/example/jdbcdao/controller/TallersServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/target/jdbcdao-1.0-SNAPSHOT/WEB-INF/classes/org/example/jdbcdao/dao/TallerDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/target/jdbcdao-1.0-SNAPSHOT/WEB-INF/classes/org/example/jdbcdao/dao/TallerDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/target/jdbcdao-1.0-SNAPSHOT/WEB-INF/classes/org/example/jdbcdao/dao/jdbc/TallerDaoJdbcImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/target/jdbcdao-1.0-SNAPSHOT/WEB-INF/classes/org/example/jdbcdao/dao/jdbc/TallerDaoJdbcImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/target/jdbcdao-1.0-SNAPSHOT/WEB-INF/classes/org/example/jdbcdao/dao/memory/TallerDaoMemoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/target/jdbcdao-1.0-SNAPSHOT/WEB-INF/classes/org/example/jdbcdao/dao/memory/TallerDaoMemoryImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/target/jdbcdao-1.0-SNAPSHOT/WEB-INF/classes/org/example/jdbcdao/model/TallerModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/target/jdbcdao-1.0-SNAPSHOT/WEB-INF/classes/org/example/jdbcdao/model/TallerModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/target/jdbcdao-1.0-SNAPSHOT/WEB-INF/tallers.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/target/jdbcdao-1.0-SNAPSHOT/WEB-INF/tallers.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codi-explicatiu/jdbcdao/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,8 +166,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -68,8 +183,8 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/paulo-politecnicllevant/Desarrollo-Web-Wntorno-Servidor.git&quot;,
-    &quot;accountId&quot;: &quot;28c5d1ce-c9b4-4984-9f06-8aaa2a692b02&quot;
+    &quot;url&quot;: &quot;https://github.com/paulo-politecnicllevant/Desarrollo-Web-Entorno-Servidor.git&quot;,
+    &quot;accountId&quot;: &quot;a03c99c2-c53a-4d89-bf97-a37bf919d33c&quot;
   }
 }</component>
   <component name="MavenImportPreferences">
@@ -120,6 +235,9 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/codi-explicatiu/jdbcdao/src/main/webapp/WEB-INF" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.jdbcdao.filtre" />
     </key>
   </component>
   <component name="RunManager" selected="Docker.base/compose.yaml.tomcat: Compose Deployment">
@@ -191,6 +309,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Base prueba de Jakarta EE" />
-    <option name="LAST_COMMIT_MESSAGE" value="Base prueba de Jakarta EE" />
+    <MESSAGE value="Código del formulario de creación de talleres" />
+    <option name="LAST_COMMIT_MESSAGE" value="Código del formulario de creación de talleres" />
   </component>
 </project>
