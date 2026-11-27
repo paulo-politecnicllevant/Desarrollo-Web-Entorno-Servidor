@@ -1,9 +1,9 @@
-/home/alumati/Escriptori/2o DAW/Desarrollo-Web-Entorno-Servidor/codi-explicatiu/3-mvc/src/main/java/controlador/AnullaServlet.java
-/home/alumati/Escriptori/2o DAW/Desarrollo-Web-Entorno-Servidor/codi-explicatiu/3-mvc/src/main/java/controlador/ConfirmacioServlet.java
-/home/alumati/Escriptori/2o DAW/Desarrollo-Web-Entorno-Servidor/codi-explicatiu/3-mvc/src/main/java/controlador/InscripcioServlet.java
-/home/alumati/Escriptori/2o DAW/Desarrollo-Web-Entorno-Servidor/codi-explicatiu/3-mvc/src/main/java/controlador/InscripcionsServlet.java
-/home/alumati/Escriptori/2o DAW/Desarrollo-Web-Entorno-Servidor/codi-explicatiu/3-mvc/src/main/java/controlador/Parametres.java
-/home/alumati/Escriptori/2o DAW/Desarrollo-Web-Entorno-Servidor/codi-explicatiu/3-mvc/src/main/java/controlador/TallersServlet.java
-/home/alumati/Escriptori/2o DAW/Desarrollo-Web-Entorno-Servidor/codi-explicatiu/3-mvc/src/main/java/model/Inscripcio.java
-/home/alumati/Escriptori/2o DAW/Desarrollo-Web-Entorno-Servidor/codi-explicatiu/3-mvc/src/main/java/model/Jornades.java
-/home/alumati/Escriptori/2o DAW/Desarrollo-Web-Entorno-Servidor/codi-explicatiu/3-mvc/src/main/java/model/Taller.java
+/apps/3-mvc/src/main/java/controlador/AnullaServlet.java
+/apps/3-mvc/src/main/java/controlador/ConfirmacioServlet.java
+/apps/3-mvc/src/main/java/controlador/InscripcioServlet.java
+/apps/3-mvc/src/main/java/controlador/InscripcionsServlet.java
+/apps/3-mvc/src/main/java/controlador/Parametres.java
+/apps/3-mvc/src/main/java/controlador/TallersServlet.java
+/apps/3-mvc/src/main/java/model/Inscripcio.java
+/apps/3-mvc/src/main/java/model/Jornades.java
+/apps/3-mvc/src/main/java/model/Taller.java

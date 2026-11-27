@@ -1,5 +1,5 @@
-/home/alumati/Escriptori/2o DAW/Desarrollo-Web-Entorno-Servidor/codi-explicatiu/4-sessions/src/main/java/controlador/LoginServlet.java
-/home/alumati/Escriptori/2o DAW/Desarrollo-Web-Entorno-Servidor/codi-explicatiu/4-sessions/src/main/java/controlador/LogoutServlet.java
-/home/alumati/Escriptori/2o DAW/Desarrollo-Web-Entorno-Servidor/codi-explicatiu/4-sessions/src/main/java/controlador/PerfilServlet.java
-/home/alumati/Escriptori/2o DAW/Desarrollo-Web-Entorno-Servidor/codi-explicatiu/4-sessions/src/main/java/filtre/AutenticacioFilter.java
-/home/alumati/Escriptori/2o DAW/Desarrollo-Web-Entorno-Servidor/codi-explicatiu/4-sessions/src/main/java/model/Usuaris.java
+/apps/4-sessions/src/main/java/controlador/LoginServlet.java
+/apps/4-sessions/src/main/java/controlador/LogoutServlet.java
+/apps/4-sessions/src/main/java/controlador/PerfilServlet.java
+/apps/4-sessions/src/main/java/filtre/AutenticacioFilter.java
+/apps/4-sessions/src/main/java/model/Usuaris.java

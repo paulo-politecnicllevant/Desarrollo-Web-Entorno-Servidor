@@ -1,0 +1,16 @@
+cat/politecnicllevant/jpa/controller/Parametres.class
+cat/politecnicllevant/jpa/model/Usuaris.class
+cat/politecnicllevant/jpa/model/TallerModel.class
+cat/politecnicllevant/jpa/dao/jpa/Persistencia.class
+cat/politecnicllevant/jpa/dao/memory/TallerDaoMemoryImpl.class
+cat/politecnicllevant/jpa/controller/NouTallerServlet.class
+cat/politecnicllevant/jpa/controller/TallerServlet.class
+cat/politecnicllevant/jpa/controller/TallersServlet.class
+cat/politecnicllevant/jpa/dao/jpa/TallerDaoJpaImpl.class
+cat/politecnicllevant/jpa/model/Taller.class
+cat/politecnicllevant/jpa/dao/TallerDao.class
+cat/politecnicllevant/jpa/dao/jdbc/BaseDeDades.class
+cat/politecnicllevant/jpa/controller/LoginServlet.class
+cat/politecnicllevant/jpa/dao/jdbc/TallerDaoJdbcImpl.class
+cat/politecnicllevant/jpa/filter/AutenticacioFilter.class
+cat/politecnicllevant/jpa/controller/LogoutServlet.class

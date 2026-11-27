@@ -1,11 +1,11 @@
-/home/alumati/Escriptori/2o DAW/Desarrollo-Web-Entorno-Servidor/codi-explicatiu/2-jsp/src/main/java/errors/FallaServlet.java
-/home/alumati/Escriptori/2o DAW/Desarrollo-Web-Entorno-Servidor/codi-explicatiu/2-jsp/src/main/java/etiquetes/InscripcioServlet.java
-/home/alumati/Escriptori/2o DAW/Desarrollo-Web-Entorno-Servidor/codi-explicatiu/2-jsp/src/main/java/etiquetes/SalutacioServlet.java
-/home/alumati/Escriptori/2o DAW/Desarrollo-Web-Entorno-Servidor/codi-explicatiu/2-jsp/src/main/java/etiquetes/TallerServlet.java
-/home/alumati/Escriptori/2o DAW/Desarrollo-Web-Entorno-Servidor/codi-explicatiu/2-jsp/src/main/java/etiquetes/TallersServlet.java
-/home/alumati/Escriptori/2o DAW/Desarrollo-Web-Entorno-Servidor/codi-explicatiu/2-jsp/src/main/java/expressions/ElServlet.java
-/home/alumati/Escriptori/2o DAW/Desarrollo-Web-Entorno-Servidor/codi-explicatiu/2-jsp/src/main/java/model/Jornades.java
-/home/alumati/Escriptori/2o DAW/Desarrollo-Web-Entorno-Servidor/codi-explicatiu/2-jsp/src/main/java/model/Taller.java
-/home/alumati/Escriptori/2o DAW/Desarrollo-Web-Entorno-Servidor/codi-explicatiu/2-jsp/src/main/java/servletjsp/AnarServlet.java
-/home/alumati/Escriptori/2o DAW/Desarrollo-Web-Entorno-Servidor/codi-explicatiu/2-jsp/src/main/java/servletjsp/BenvingudaServlet.java
-/home/alumati/Escriptori/2o DAW/Desarrollo-Web-Entorno-Servidor/codi-explicatiu/2-jsp/src/main/java/servletjsp/DestiServlet.java
+/apps/2-jsp/src/main/java/errors/FallaServlet.java
+/apps/2-jsp/src/main/java/etiquetes/InscripcioServlet.java
+/apps/2-jsp/src/main/java/etiquetes/SalutacioServlet.java
+/apps/2-jsp/src/main/java/etiquetes/TallerServlet.java
+/apps/2-jsp/src/main/java/etiquetes/TallersServlet.java
+/apps/2-jsp/src/main/java/expressions/ElServlet.java
+/apps/2-jsp/src/main/java/model/Jornades.java
+/apps/2-jsp/src/main/java/model/Taller.java
+/apps/2-jsp/src/main/java/servletjsp/AnarServlet.java
+/apps/2-jsp/src/main/java/servletjsp/BenvingudaServlet.java
+/apps/2-jsp/src/main/java/servletjsp/DestiServlet.java
