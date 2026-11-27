@@ -1,0 +1,8 @@
+model/GestorIncidencies.class
+dao/jpa/Persistencia.class
+controlador/IncidenciesServlet.class
+controlador/ResolServlet.class
+model/Incidencia.class
+dao/IncidenciaDao.class
+controlador/NovaIncidenciaServlet.class
+dao/jpa/IncidenciaDaoJpa.class

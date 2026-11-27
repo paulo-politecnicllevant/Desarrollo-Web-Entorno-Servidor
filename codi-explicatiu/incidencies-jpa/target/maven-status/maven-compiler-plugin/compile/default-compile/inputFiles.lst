@@ -1,0 +1,8 @@
+/home/alumati/Escriptori/2o DAW/Desarrollo-Web-Entorno-Servidor/codi-explicatiu/incidencies-jpa/src/main/java/controlador/IncidenciesServlet.java
+/home/alumati/Escriptori/2o DAW/Desarrollo-Web-Entorno-Servidor/codi-explicatiu/incidencies-jpa/src/main/java/controlador/NovaIncidenciaServlet.java
+/home/alumati/Escriptori/2o DAW/Desarrollo-Web-Entorno-Servidor/codi-explicatiu/incidencies-jpa/src/main/java/controlador/ResolServlet.java
+/home/alumati/Escriptori/2o DAW/Desarrollo-Web-Entorno-Servidor/codi-explicatiu/incidencies-jpa/src/main/java/dao/IncidenciaDao.java
+/home/alumati/Escriptori/2o DAW/Desarrollo-Web-Entorno-Servidor/codi-explicatiu/incidencies-jpa/src/main/java/dao/jpa/IncidenciaDaoJpa.java
+/home/alumati/Escriptori/2o DAW/Desarrollo-Web-Entorno-Servidor/codi-explicatiu/incidencies-jpa/src/main/java/dao/jpa/Persistencia.java
+/home/alumati/Escriptori/2o DAW/Desarrollo-Web-Entorno-Servidor/codi-explicatiu/incidencies-jpa/src/main/java/model/GestorIncidencies.java
+/home/alumati/Escriptori/2o DAW/Desarrollo-Web-Entorno-Servidor/codi-explicatiu/incidencies-jpa/src/main/java/model/Incidencia.java
